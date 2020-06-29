@@ -5,7 +5,7 @@
        xmlns:mvc="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring.xsd">
 
-    <mvc:component-scan base-package="com.ydgk.crowd"></mvc:component-scan>
+    <context:component-scan base-package="com.ydgk.crowd.service"></context:component-scan>
 
     <!--这个配置文件时Spring的配置文件，主要用来做Spring和持久化相关的配置-->
     <!--读取jdbc.properties-->

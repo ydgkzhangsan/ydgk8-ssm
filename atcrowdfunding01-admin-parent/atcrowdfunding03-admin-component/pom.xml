@@ -144,6 +144,12 @@
             <artifactId>cglib</artifactId>
         </dependency>
 
+        <!--SpringMVC的依赖-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>
