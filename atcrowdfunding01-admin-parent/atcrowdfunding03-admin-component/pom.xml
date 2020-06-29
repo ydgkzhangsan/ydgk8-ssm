@@ -80,6 +80,7 @@
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper</artifactId>
         </dependency>
+
         <!-- Spring 进行 JSON 数据转换依赖 -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
@@ -89,6 +90,7 @@
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
         </dependency>
+
         <!-- JSTL 标签库 -->
         <dependency>
             <groupId>jstl</groupId>
@@ -148,6 +150,29 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
+        </dependency>
+
+        <!-- JSTL 标签库 -->
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+        </dependency>
+
+
+        <!-- 引入 Servlet 容器中相关依赖 -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <!--
+                provided: 表示项目在部署是此依赖不会参与部署
+            -->
+            <scope>provided</scope>
+        </dependency>
+        <!-- JSP 页面使用的依赖 -->
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>jsp-api</artifactId>
+            <scope>provided</scope>
         </dependency>
 
     </dependencies>

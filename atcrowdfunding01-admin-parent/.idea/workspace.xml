@@ -24,22 +24,9 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="1770">
               <caret line="83" column="23" lean-forward="false" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="23" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CharacterEncodingFilter.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.20.RELEASE/spring-web-4.3.20.RELEASE.jar!/org/springframework/web/filter/CharacterEncodingFilter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="e#1475#1476#0" expanded="true" />
-                <element signature="e#1511#1512#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -48,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/spring-web-mvc.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+              <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -57,43 +44,45 @@
       <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/controller/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="333">
+              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#830#831#0" expanded="true" />
+                <element signature="e#889#890#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+                <element signature="e#1016#1017#0" expanded="true" />
+                <element signature="e#1066#1067#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="target.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/target.jsp">
+      <file leaf-file-name="ResultEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atcrowdfunding04-admin-entity/src/main/java/com/ydgk/crowd/entity/ResultEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.20.RELEASE/spring-webmvc-4.3.20.RELEASE.jar!/org/springframework/web/servlet/mvc/Controller.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContextLoaderListener.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.20.RELEASE/spring-web-4.3.20.RELEASE.jar!/org/springframework/web/context/ContextLoaderListener.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="38" />
-              <folding />
+            <state relative-caret-position="924">
+              <caret line="37" column="56" lean-forward="false" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="56" />
+              <folding>
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+                <element signature="e#913#914#0" expanded="true" />
+                <element signature="e#978#979#0" expanded="true" />
+                <element signature="e#1468#1469#0" expanded="true" />
+                <element signature="e#1506#1507#0" expanded="true" />
+                <element signature="e#1568#1569#0" expanded="true" />
+                <element signature="e#1622#1623#0" expanded="true" />
+                <element signature="e#1665#1666#0" expanded="true" />
+                <element signature="e#1704#1705#0" expanded="true" />
+                <element signature="e#1768#1769#0" expanded="true" />
+                <element signature="e#1824#1825#0" expanded="true" />
+                <element signature="e#1855#1856#0" expanded="true" />
+                <element signature="e#1887#1888#0" expanded="true" />
+                <element signature="e#1932#1933#0" expanded="true" />
+                <element signature="e#1974#1975#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,7 +92,25 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="366">
               <caret line="204" column="34" lean-forward="false" selection-start-line="204" selection-start-column="24" selection-end-line="204" selection-end-column="34" />
-              <folding />
+              <folding>
+                <marker date="1593330724475" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1593330724475" expanded="false" signature="155:1464" ph="..." />
+                <marker date="1593330724475" expanded="true" signature="2677:2684" ph="{}" />
+                <marker date="1593330724475" expanded="false" signature="2741:2752" ph=" { " />
+                <marker date="1593330724475" expanded="false" signature="2775:2781" ph=" }" />
+                <marker date="1593330724475" expanded="true" signature="2869:3234" ph="{...}" />
+                <marker date="1593330724475" expanded="true" signature="3326:6306" ph="{...}" />
+                <marker date="1593330724475" expanded="true" signature="6391:6855" ph="{...}" />
+                <marker date="1593330724475" expanded="true" signature="6933:7811" ph="{...}" />
+                <marker date="1593330724475" expanded="true" signature="7931:8900" ph="{...}" />
+                <marker date="1593330724475" expanded="true" signature="8996:10377" ph="{...}" />
+                <marker date="1593330724475" expanded="true" signature="10534:11602" ph="{...}" />
+                <marker date="1593330724475" expanded="true" signature="11724:12310" ph="{...}" />
+                <marker date="1593330724475" expanded="true" signature="12394:13262" ph="{...}" />
+                <marker date="1593330724475" expanded="true" signature="13338:14814" ph="{...}" />
+                <marker date="1593330724475" expanded="true" signature="14890:15213" ph="{...}" />
+                <marker date="1593330724475" expanded="true" signature="15226:15660" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,18 +118,48 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="278">
+              <caret line="58" column="40" lean-forward="false" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Properties.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_131/src.zip!/java/util/Properties.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atcrowdfunding04-admin-entity/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="967" column="18" lean-forward="false" selection-start-line="967" selection-start-column="18" selection-end-line="967" selection-end-column="18" />
+            <state relative-caret-position="367">
+              <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="141" column="19" lean-forward="false" selection-start-line="141" selection-start-column="19" selection-end-line="141" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="85" column="57" lean-forward="true" selection-start-line="85" selection-start-column="57" selection-end-line="85" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -135,8 +172,9 @@
       <list>
         <option value="Interface" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -162,7 +200,6 @@
         <option value="$PROJECT_DIR$/atcrowdfunding04-admin-entity/pom.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding04-admin-entity/src/test/java/com/ydgk/corwd/TestDataSource.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/src/test/java/com/ydgk/crowd/TestDataSource.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/src/test/java/com/ydgk/crowd/service/api/AdminService.java" />
@@ -175,10 +212,14 @@
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/test/java/com/ydgk/crowd/TestDataSource.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/spring-persist-tx.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/service/impl/AdminServiceImpl.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/pom.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/target.jsp" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/spring-web-mvc.xml" />
+        <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/pom.xml" />
+        <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/atcrowdfunding04-admin-entity/src/main/java/com/ydgk/crowd/entity/ResultEntity.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/controller/AdminController.java" />
       </list>
     </option>
@@ -226,41 +267,16 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="atcrowdfunding02-admin-webui" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework:spring-test:4.3.20.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="atcrowdfunding02-admin-webui" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
           <item name="com.ydgk.crowd:atcrowdfunding03-admin-component:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="atcrowdfunding02-admin-webui" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="com.ydgk.crowd:atcrowdfunding03-admin-component:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework:spring-orm:4.3.20.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="atcrowdfunding03-admin-component" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="atcrowdfunding03-admin-component" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="atcrowdfunding03-admin-component" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework:spring-orm:4.3.20.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="atcrowdfunding03-admin-component" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework:spring-webmvc:4.3.20.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
@@ -357,6 +373,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atcrowdfunding01-admin-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atcrowdfunding01-admin-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="atcrowdfunding02-admin-webui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -403,12 +428,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ydgk" type="462c0819:PsiDirectoryNode" />
               <item name="crowd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atcrowdfunding01-admin-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atcrowdfunding01-admin-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="atcrowdfunding02-admin-webui" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="atcrowdfunding01-admin-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -583,6 +602,10 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.25" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -592,6 +615,7 @@
       <recent name="com.ydgk.crowd.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\ideal_project\atcrowdfunding01-admin-parent\atcrowdfunding02-admin-webui\src\main\webapp" />
       <recent name="D:\java\ideal_project\atcrowdfunding01-admin-parent\atcrowdfunding04-admin-entity\src\main\java\com\ydgk\crowd\entity" />
       <recent name="D:\java\ideal_project\atcrowdfunding01-admin-parent\atcrowdfunding02-admin-webui\src\main\resources" />
       <recent name="D:\java\ideal_project\atcrowdfunding01-admin-parent\atcrowdfunding04-admin-entity\src\main\resources\mybatis\mappers" />
@@ -895,7 +919,7 @@
       <updated>1593315067505</updated>
       <workItem from="1593315070373" duration="9548000" />
       <workItem from="1593333588367" duration="894000" />
-      <workItem from="1593393529878" duration="11905000" />
+      <workItem from="1593393529878" duration="17203000" />
     </task>
     <servers />
   </component>
@@ -932,7 +956,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22347000" />
+    <option name="totallyTimeSpent" value="27645000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -941,7 +965,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25175643" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1303648" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10246781" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13680257" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
@@ -951,16 +975,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44847775" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.026932085" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4086651" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24238876" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38056207" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26126608" sideWeight="0.4929078" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22800429" sideWeight="0.4929078" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21566524" sideWeight="0.5070922" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1012,14 +1036,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/test/java/com/ydgk/crowd/TestDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/service/api/AdminService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1061,7 +1077,7 @@
         <state relative-caret-position="1080">
           <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
           <folding>
-            <element signature="e#1324#1342#0" expanded="true" />
+            <element signature="e#1324#1342#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1100,14 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding04-admin-entity/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1620,14 +1628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="121" column="11" lean-forward="false" selection-start-line="121" selection-start-column="11" selection-end-line="131" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -1653,7 +1653,7 @@
         <state relative-caret-position="210">
           <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
-            <element signature="e#1324#1342#0" expanded="true" />
+            <element signature="e#1324#1342#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1698,26 +1698,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="150" column="11" lean-forward="true" selection-start-line="150" selection-start-column="11" selection-end-line="150" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_131/src.zip!/java/util/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="967" column="18" lean-forward="false" selection-start-line="967" selection-start-column="18" selection-end-line="967" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.20.RELEASE/spring-web-4.3.20.RELEASE.jar!/org/springframework/web/context/ContextLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="204" column="34" lean-forward="false" selection-start-line="204" selection-start-column="24" selection-end-line="204" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1730,22 +1714,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.20.RELEASE/spring-web-4.3.20.RELEASE.jar!/org/springframework/web/filter/CharacterEncodingFilter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="e#1475#1476#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1753,7 +1726,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1593330721652" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1593330721652" expanded="false" signature="159:297" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1776,7 +1752,7 @@
     <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/target.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1784,27 +1760,131 @@
     <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/spring-web-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.20.RELEASE/spring-web-4.3.20.RELEASE.jar!/org/springframework/web/context/ContextLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="204" column="34" lean-forward="false" selection-start-line="204" selection-start-column="24" selection-end-line="204" selection-end-column="34" />
+          <folding>
+            <marker date="1593330724475" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1593330724475" expanded="false" signature="155:1464" ph="..." />
+            <marker date="1593330724475" expanded="true" signature="2677:2684" ph="{}" />
+            <marker date="1593330724475" expanded="false" signature="2741:2752" ph=" { " />
+            <marker date="1593330724475" expanded="false" signature="2775:2781" ph=" }" />
+            <marker date="1593330724475" expanded="true" signature="2869:3234" ph="{...}" />
+            <marker date="1593330724475" expanded="true" signature="3326:6306" ph="{...}" />
+            <marker date="1593330724475" expanded="true" signature="6391:6855" ph="{...}" />
+            <marker date="1593330724475" expanded="true" signature="6933:7811" ph="{...}" />
+            <marker date="1593330724475" expanded="true" signature="7931:8900" ph="{...}" />
+            <marker date="1593330724475" expanded="true" signature="8996:10377" ph="{...}" />
+            <marker date="1593330724475" expanded="true" signature="10534:11602" ph="{...}" />
+            <marker date="1593330724475" expanded="true" signature="11724:12310" ph="{...}" />
+            <marker date="1593330724475" expanded="true" signature="12394:13262" ph="{...}" />
+            <marker date="1593330724475" expanded="true" signature="13338:14814" ph="{...}" />
+            <marker date="1593330724475" expanded="true" signature="14890:15213" ph="{...}" />
+            <marker date="1593330724475" expanded="true" signature="15226:15660" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="1770">
           <caret line="83" column="23" lean-forward="false" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding04-admin-entity/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="141" column="19" lean-forward="false" selection-start-line="141" selection-start-column="19" selection-end-line="141" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/jquery/jquery-form.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="6" column="459" lean-forward="false" selection-start-line="6" selection-start-column="459" selection-end-line="6" selection-end-column="459" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="85" column="57" lean-forward="true" selection-start-line="85" selection-start-column="57" selection-end-line="85" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="58" column="40" lean-forward="false" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding04-admin-entity/src/main/java/com/ydgk/crowd/entity/ResultEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="37" column="56" lean-forward="false" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="56" />
+          <folding>
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#1506#1507#0" expanded="true" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1622#1623#0" expanded="true" />
+            <element signature="e#1665#1666#0" expanded="true" />
+            <element signature="e#1704#1705#0" expanded="true" />
+            <element signature="e#1768#1769#0" expanded="true" />
+            <element signature="e#1824#1825#0" expanded="true" />
+            <element signature="e#1855#1856#0" expanded="true" />
+            <element signature="e#1887#1888#0" expanded="true" />
+            <element signature="e#1932#1933#0" expanded="true" />
+            <element signature="e#1974#1975#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/controller/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="333">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1812,6 +1892,67 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>atcrowdfunding02-admin-webui:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>atcrowdfunding02-admin-webui</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -1819,6 +1960,18 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: asm:asm:3.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25" />
               </list>
             </option>
           </splitter-proportions>
