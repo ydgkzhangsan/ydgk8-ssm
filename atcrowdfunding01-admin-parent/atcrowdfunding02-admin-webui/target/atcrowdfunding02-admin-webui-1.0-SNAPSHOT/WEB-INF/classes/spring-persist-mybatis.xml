@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring.xsd">
+
+    <mvc:component-scan base-package="com.ydgk.crowd"></mvc:component-scan>
+
+    <!--这个配置文件时Spring的配置文件，主要用来做Spring和持久化相关的配置-->
+    <!--读取jdbc.properties-->
+    <context:property-placeholder location="classpath:jdbc.properties"></context:property-placeholder>
+
+    <!--配置数据库连接池-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="username" value="${jdbc.user}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+        <property name="driverClassName" value="${jdbc.driverClass}"></property>
+        <property name="url" value="${jdbc.jdbcUrl}"></property>
+
+        <property name="initialSize" value="${jdbc.initSize}"></property>
+    </bean>
+
+    <!--整合Mybatis相关-->
+    <!--配置SqlSessionFactoryBean-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" value="#{dataSource}"></property>
+        <!--配置Mybatis核心配置文件的路径-->
+        <property name="configLocation" value="classpath:mybatis/mybatis-config.xml"></property>
+        <!--配置Mapper文件的路径-->
+        <property name="mapperLocations" value="classpath:mybatis/mappers/*Mapper.xml"></property>
+    </bean>
+
+    <!-- 配置MapperScannerConfigurer 将Mapper接口的代理对象放入IOC容器中-->
+    <bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.ydgk.crowd.mapper"></property>
+    </bean>
+
+    <!--<mybatis:scan base-package="com.ydgk.crowd.mapper"></mybatis:scan>-->
+
+</beans>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--
+        mybatis的核心配置文件，占时不做配置，因为很多内容都交由Spring进行管理，
+        比如数据源，数据库连接池，事务等
+
+        在这个配置文件中一般用来配置经常需要改变的配置，比如 Setting
+    -->
+
+</configuration>
