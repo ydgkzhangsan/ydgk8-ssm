@@ -1,4 +1,4 @@
-package com.ydgk.crowd.entity;
+package com.ydgk.ssm.util;
 
 /**
  * @author kfstart

@@ -1,6 +1,5 @@
 com\ydgk\crowd\entity\AdminExample.class
 com\ydgk\crowd\entity\Admin.class
-com\ydgk\crowd\mapper\AdminMapper.class
-com\ydgk\crowd\entity\AdminExample$GeneratedCriteria.class
 com\ydgk\crowd\entity\AdminExample$Criteria.class
+com\ydgk\crowd\entity\AdminExample$GeneratedCriteria.class
 com\ydgk\crowd\entity\AdminExample$Criterion.class

@@ -15,4 +15,5 @@ public interface AdminService {
 
     Integer updateAdmin(Admin admin);
 
+    Admin getAdminByLoginAcctAndPaswd(String loginAcct, String userPswd);
 }

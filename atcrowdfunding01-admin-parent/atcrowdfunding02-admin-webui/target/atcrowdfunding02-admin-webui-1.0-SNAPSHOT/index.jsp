@@ -51,7 +51,7 @@
 
                 var empList = [3,4,7];
                 var jsonData = JSON.stringify(empList);
-                alert(jsonData)
+                // alert(jsonData)
 
                 // 发送ajax请求
                 $.ajax({
