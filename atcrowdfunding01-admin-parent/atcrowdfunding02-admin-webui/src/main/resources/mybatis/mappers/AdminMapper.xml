@@ -70,6 +70,18 @@
   <sql id="Base_Column_List">
     id, login_acct, user_pswd, user_name, email, create_time
   </sql>
+  <!--List<Admin> selectByKeyWord(String keyWord);-->
+  <select id="selectByKeyWord" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    FROM t_admin
+    <if test="keyWord != ''">
+      WHERE login_acct like concat('%',${keyWord},'%')
+      OR user_name like concat('%',${keyWord},'%')
+      OR email like concat('%',${keyWord},'%')
+    </if>
+  </select>
+
   <select id="selectByExample" parameterType="com.ydgk.crowd.entity.AdminExample" resultMap="BaseResultMap">
     select
     <if test="distinct">

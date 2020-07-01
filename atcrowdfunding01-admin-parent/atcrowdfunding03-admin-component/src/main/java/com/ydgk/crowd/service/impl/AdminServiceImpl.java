@@ -1,5 +1,7 @@
 package com.ydgk.crowd.service.impl;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.ydgk.crowd.entity.Admin;
 import com.ydgk.crowd.entity.AdminExample;
 import com.ydgk.crowd.mapper.AdminMapper;
@@ -67,5 +69,18 @@ public class AdminServiceImpl implements AdminService {
         }
         //3、 如果校验成功，将获取到的 Admin 返回
         return admin;
+    }
+
+    @Override
+    public PageInfo<Admin> getAdminsByKeyWord(Integer pageNum, Integer pageSize, String keyWord) {
+        PageHelper.startPage(pageNum,pageSize);
+        List<Admin> admins = adminMapper.selectByKeyWord(keyWord);
+        PageInfo<Admin> adminPageInfo = new PageInfo<>(admins, 5);
+        return adminPageInfo;
+    }
+
+    @Override
+    public void removeAdminById(Integer adminId) {
+        adminMapper.deleteByPrimaryKey(adminId);
     }
 }

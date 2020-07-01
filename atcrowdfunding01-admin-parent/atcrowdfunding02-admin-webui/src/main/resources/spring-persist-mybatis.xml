@@ -29,6 +29,20 @@
         <property name="configLocation" value="classpath:mybatis/mybatis-config.xml"></property>
         <!--配置Mapper文件的路径-->
         <property name="mapperLocations" value="classpath:mybatis/mappers/*Mapper.xml"></property>
+
+        <!--配置拦截器插件-->
+        <property name="plugins">
+            <array>
+                <bean class="com.github.pagehelper.PageInterceptor">
+                    <property name="properties">
+                        <!--使用下面的方式配置参数，一行配置一个 -->
+                        <value>
+                            helperDialect=mysql
+                        </value>
+                    </property>
+                </bean>
+            </array>
+        </property>
     </bean>
 
     <!-- 配置MapperScannerConfigurer 将Mapper接口的代理对象放入IOC容器中-->

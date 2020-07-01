@@ -4,6 +4,13 @@
 <html lang="zh-CN">
 <head>
     <jsp:include page="/WEB-INF/commons/head.jsp"></jsp:include>
+    <style>
+        .form-signin {
+            max-width: 330px;
+            padding: 15px;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -22,11 +29,11 @@
             <p style="color:red;">${requestScope.exception.message}</p>
         </c:if>
         <div class="form-group has-success has-feedback">
-            <input type="text" name="loginAcct" class="form-control" id="inputSuccess3" placeholder="请输入登录账号" autofocus>
+            <input type="text" name="loginAcct" value="zhangsan" class="form-control" id="inputSuccess3" placeholder="请输入登录账号" autofocus>
             <span class="glyphicon glyphicon-user form-control-feedback"></span>
         </div>
         <div class="form-group has-success has-feedback">
-            <input type="text" name="userPswd" class="form-control" id="inputSuccess4" placeholder="请输入登录密码" style="margin-top:10px;">
+            <input type="text" name="userPswd" value="123456" class="form-control" id="inputSuccess4" placeholder="请输入登录密码" style="margin-top:10px;">
             <span class="glyphicon glyphicon-lock form-control-feedback"></span>
         </div>
         <button type="submit" class="btn btn-lg btn-success btn-block" href="main.html" > 登录</button>

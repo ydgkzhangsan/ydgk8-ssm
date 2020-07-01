@@ -1,9 +1,13 @@
 package com.ydgk.crowd;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.ydgk.crowd.entity.Admin;
+import com.ydgk.crowd.mapper.AdminMapper;
 import com.ydgk.crowd.service.api.AdminService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.mybatis.spring.SqlSessionFactoryBean;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +15,10 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.sql.DataSource;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.util.List;
 
 /**
  * @author kfstart
@@ -29,9 +36,57 @@ public class TestDataSource {
 
     @Autowired
     private AdminService adminService;
-
+//    @Autowired
+//    private SqlSessionFactoryBean sqlSessionFactoryBean;
+    @Autowired
+    private AdminMapper adminMapper;
     //1、 获取日志打印器
     Logger logger = LoggerFactory.getLogger(TestDataSource.class);
+
+    @Test
+    public void testPageHelper(){
+        // 在查询之前调用这个方法，以后的查询会自带分页  pageNum: 页码， pageSize : 每一页多少条
+        PageHelper.startPage(2,10);
+        List<Admin> admins = adminMapper.selectByExample(null);
+
+        // PageInfo   可以将查询到的集合封装到PageInfo中，这样pageInfo就保存了很多的分页信息
+        PageInfo<Admin> adminPageInfo = new PageInfo<>(admins);
+        System.out.println("下一页页码为："+adminPageInfo.getNextPage());
+        System.out.println("上一页页码为："+adminPageInfo.getPrePage());
+        System.out.println("是否有上一页："+adminPageInfo.isHasPreviousPage());
+        System.out.println("是否有下一页："+adminPageInfo.isHasNextPage());
+        System.out.println("当前页是多少页："+adminPageInfo.getPageNum());
+        System.out.println("总共的记录条数为："+adminPageInfo.getTotal());
+        System.out.println("每页显示条数："+adminPageInfo.getSize());
+        List<Admin> list = adminPageInfo.getList();
+        for(Admin admin : list){
+            System.out.println(admin);
+        }
+        // 用来返回导航页面显示的页码数
+        int[] navigatepageNums = adminPageInfo.getNavigatepageNums();
+        for(int i : navigatepageNums){
+            System.out.print(i + ",");
+        }
+        System.out.println();
+
+    }
+
+    // 向数据库中插入多条记录，方便完成管理员维护功能
+//    @Test
+//    public void insertMoreAdmin() throws SQLException {
+//        Connection connection = dataSource.getConnection();
+//        String sql = "INSERT INTO t_admin (login_acct,user_pswd,user_name,email) VALUES (?,?,?,?)";
+//        PreparedStatement statement = connection.prepareStatement(sql);
+//        for(int i = 0 ; i < 1000; i++){
+//            statement.setObject(1,"logAcct"+i);
+//            statement.setObject(2,"E10ADC3949BA59ABBE56E057F20F883E");
+//            statement.setObject(3,"userName"+i);
+//            statement.setObject(4,"userName"+i+"@aliyun.com");
+//            statement.executeUpdate();
+//        }
+//        statement.close();
+//        connection.close();
+//    }
 
     @Test
     public void testAdminUpdate(){

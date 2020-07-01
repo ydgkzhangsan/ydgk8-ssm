@@ -79,6 +79,8 @@
         <dependency>
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper</artifactId>
+            <!--版本一般在父工程中控制-->
+            <version>5.0.0</version>
         </dependency>
 
         <!-- Spring 进行 JSON 数据转换依赖 -->
