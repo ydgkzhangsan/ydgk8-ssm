@@ -21,4 +21,10 @@ public interface AdminService {
     PageInfo<Admin> getAdminsByKeyWord(Integer pageNum, Integer pageSize, String keyWord);
 
     void removeAdminById(Integer adminId);
+
+    void saveAdmin(Admin admin);
+
+    Admin getAdminById(Integer adminId);
+
+    void editAdmin(Admin admin, String originalLoginAcct);
 }

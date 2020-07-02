@@ -3,9 +3,11 @@ package com.ydgk.crowd.web;
 import com.google.gson.Gson;
 import com.ydgk.ssm.constant.CrowdConstant;
 import com.ydgk.ssm.exceptions.AccessForbiddenException;
+import com.ydgk.ssm.exceptions.AccountNameAlreadyInUser;
 import com.ydgk.ssm.exceptions.LoginFailedException;
 import com.ydgk.ssm.util.CrowdUtil;
 import com.ydgk.ssm.util.ResultEntity;
+import org.springframework.dao.DuplicateKeyException;
 import org.springframework.web.HttpRequestHandler;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -31,6 +33,20 @@ public class CrowdExceptionResolver {
 //        String viewName = "pages/admin-login";
 //        return  commonExceptionResolver(viewName,request,response,exception);
 //    }
+
+    @ExceptionHandler(AccountNameAlreadyInUser.class)
+    public ModelAndView handlerLoginFailed(HttpServletRequest request,
+                                           AccountNameAlreadyInUser exception,
+                                           HttpServletResponse response) throws IOException {
+        String viewName = "";
+        if(exception.getMessage().contains("修改")){
+            viewName = "pages/admin-edit";
+        } else {
+            viewName = "pages/admin-add";
+        }
+        return  commonExceptionResolver(viewName,request,response,exception);
+    }
+
 
     @ExceptionHandler(LoginFailedException.class)
     public ModelAndView handlerLoginFailed(HttpServletRequest request,

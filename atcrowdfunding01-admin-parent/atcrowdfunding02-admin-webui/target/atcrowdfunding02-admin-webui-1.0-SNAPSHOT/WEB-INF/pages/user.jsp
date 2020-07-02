@@ -75,7 +75,7 @@
                         <button type="submit" class="btn btn-warning"><i class="glyphicon glyphicon-search"></i> 查询</button>
                     </form>
                     <button type="button" class="btn btn-danger" style="float:right;margin-left:10px;"><i class=" glyphicon glyphicon-remove"></i> 删除</button>
-                    <button type="button" class="btn btn-primary" style="float:right;" onclick="window.location.href='add.html'"><i class="glyphicon glyphicon-plus"></i> 新增</button>
+                    <a  href="admin/to/input.html" type="button" class="btn btn-primary" style="float:right;"><i class="glyphicon glyphicon-plus"></i> 新增</a>
                     <br>
                     <hr style="clear:both;">
                     <div class="table-responsive">
@@ -104,7 +104,7 @@
                                             <td>${admin.email}</td>
                                             <td>
                                                 <button type="button" class="btn btn-success btn-xs"><i class=" glyphicon glyphicon-check"></i></button>
-                                                <button type="button" class="btn btn-primary btn-xs"><i class=" glyphicon glyphicon-pencil"></i></button>
+                                                <a href="user/to/edit/${admin.id}/${requestScope.adminPageInfo.pageNum}/${param.keyWord}.html" class="btn btn-primary btn-xs"><i class=" glyphicon glyphicon-pencil"></i></a>
                                                 <a  href="user/do/delete/${admin.id}/${requestScope.adminPageInfo.pageNum}/${param.keyWord}.html" class="btn btn-danger btn-xs"><i class=" glyphicon glyphicon-remove"></i></a>
                                             </td>
                                         </tr>

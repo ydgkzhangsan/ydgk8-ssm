@@ -21,34 +21,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TestDataSource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/test/java/com/ydgk/crowd/TestDataSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-              <folding>
-                <marker date="1593571593301" expanded="true" signature="2709:2784" ph="INSERT INTO t_admin... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageInfo.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.0.0/pagehelper-5.0.0.jar!/com/github/pagehelper/PageInfo.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="44" column="81" lean-forward="false" selection-start-line="44" selection-start-column="74" selection-end-line="44" selection-end-column="81" />
+            <state relative-caret-position="416">
+              <caret line="91" column="33" lean-forward="true" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin-edit.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/admin-edit.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="49" column="53" lean-forward="false" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,28 +46,28 @@
       <file leaf-file-name="user.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/user.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="107" column="144" lean-forward="true" selection-start-line="107" selection-start-column="58" selection-end-line="107" selection-end-column="144" />
+            <state relative-caret-position="270">
+              <caret line="106" column="141" lean-forward="true" selection-start-line="106" selection-start-column="57" selection-end-line="106" selection-end-column="141" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.pagination.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/pagination/jquery.pagination.js">
+      <file leaf-file-name="spring-persist-mybatis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/spring-persist-mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="340">
+              <caret line="46" column="62" lean-forward="false" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/commons/head.jsp">
+      <file leaf-file-name="PageInterceptor.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.0.0/pagehelper-5.0.0.jar!/com/github/pagehelper/PageInterceptor.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="55" />
+            <state relative-caret-position="203">
+              <caret line="127" column="51" lean-forward="false" selection-start-line="127" selection-start-column="41" selection-end-line="127" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -86,8 +76,8 @@
       <file leaf-file-name="AdminService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/service/api/AdminService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+            <state relative-caret-position="270">
+              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -96,43 +86,58 @@
       <file leaf-file-name="AdminServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/service/impl/AdminServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="83" column="48" lean-forward="false" selection-start-line="83" selection-start-column="48" selection-end-line="83" selection-end-column="48" />
+            <state relative-caret-position="450">
+              <caret line="130" column="38" lean-forward="false" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="38" />
               <folding>
-                <element signature="e#2739#2740#0" expanded="true" />
-                <element signature="e#2794#2795#0" expanded="true" />
+                <element signature="e#2854#2855#0" expanded="true" />
+                <element signature="e#2909#2910#0" expanded="true" />
+                <element signature="e#3974#3975#0" expanded="true" />
+                <element signature="e#4036#4037#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/mapper/AdminMapper.java">
+      <file leaf-file-name="CrowdExceptionResolver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/web/CrowdExceptionResolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="31" />
+            <state relative-caret-position="292">
+              <caret line="44" column="35" lean-forward="false" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminMapper.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AdminMapper.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mappers/AdminMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="80" column="40" lean-forward="false" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="40" />
+            <state relative-caret-position="195">
+              <caret line="76" column="16" lean-forward="true" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
               <folding>
-                <marker date="1593575267492" expanded="true" signature="3211:3258" ph="select id, l... " />
-                <marker date="1593575267492" expanded="true" signature="3211:3275" ph="select FROM t_admin" />
-                <marker date="1593575267492" expanded="true" signature="3211:3469" ph="select FROM t_admin" />
-                <marker date="1593575267492" expanded="true" signature="3993:4096" ph="select from t_admin" />
-                <marker date="1593575267492" expanded="true" signature="4182:4239" ph="delete from t_admin... " />
-                <marker date="1593575267492" expanded="true" signature="4339:4358" ph="delete from t_admin... " />
-                <marker date="1593575267492" expanded="true" signature="4534:4820" ph="insert into t_admin... " />
-                <marker date="1593575267492" expanded="true" signature="6070:6098" ph="select count... t_admin" />
-                <marker date="1593575267492" expanded="true" signature="7114:7439" ph="update t_admin... " />
-                <marker date="1593575267492" expanded="true" signature="7646:8197" ph="update t_admin... " />
-                <marker date="1593575267492" expanded="true" signature="8293:8579" ph="update t_admin... " />
+                <marker date="1593679076707" expanded="true" signature="3211:3258" ph="select id, l... " />
+                <marker date="1593679076707" expanded="true" signature="3211:3275" ph="select FROM t_admin" />
+                <marker date="1593679076707" expanded="true" signature="3211:3498" ph="select FROM t_admin" />
+                <marker date="1593679076707" expanded="true" signature="3211:3499" ph="select FROM t_admin" />
+                <marker date="1593679076707" expanded="true" signature="4023:4126" ph="select from t_admin" />
+                <marker date="1593679076707" expanded="true" signature="4212:4269" ph="delete from t_admin... " />
+                <marker date="1593679076707" expanded="true" signature="4369:4388" ph="delete from t_admin... " />
+                <marker date="1593679076707" expanded="true" signature="4564:4850" ph="insert into t_admin... " />
+                <marker date="1593679076707" expanded="true" signature="6100:6128" ph="select count... t_admin" />
+                <marker date="1593679076707" expanded="true" signature="7144:7469" ph="update t_admin... " />
+                <marker date="1593679076707" expanded="true" signature="7676:8227" ph="update t_admin... " />
+                <marker date="1593679076707" expanded="true" signature="8323:8609" ph="update t_admin... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Admin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atcrowdfunding04-admin-entity/src/main/java/com/ydgk/crowd/entity/Admin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,9 +151,9 @@
         <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="HTML File" />
+        <option value="Class" />
         <option value="Jsp File" />
         <option value="CrowdJSP" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -173,7 +178,6 @@
       <list>
         <option value="$PROJECT_DIR$/atcrowdfunding04-admin-entity/src/main/java/com/ydgk/crowd/Admin.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding04-admin-entity/src/main/java/com/ydgk/crowd/mapper/AdminMapper.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding04-admin-entity/pom.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/atcrowdfunding04-admin-entity/src/test/java/com/ydgk/corwd/TestDataSource.java" />
@@ -182,7 +186,6 @@
         <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/src/test/java/com/ydgk/crowd/service/impl/AdminServiceImpl.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/pom.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/atcrowdfunding04-admin-entity/src/main/java/com/ydgk/crowd/entity/Admin.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/spring-persist-tx.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/target.jsp" />
@@ -191,25 +194,29 @@
         <option value="$PROJECT_DIR$/atcrowdfunding04-admin-entity/src/main/java/com/ydgk/crowd/entity/ResultEntity.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/errors/system-error.jsp" />
         <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/interceptors/LoginCheckInterceptor.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/spring-web-mvc.xml" />
-        <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/web/CrowdExceptionResolver.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/main.jsp" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/commons/navbar.jsp" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/commons/sidebar.jsp" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/admin-login.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/pom.xml" />
-        <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/spring-persist-mybatis.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/test/java/com/ydgk/crowd/TestDataSource.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/mapper/AdminMapper.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mappers/AdminMapper.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/commons/head.jsp" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/pagination/jquery.pagination.js" />
+        <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/spring-web-mvc.xml" />
+        <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/interceptors/LoginCheckInterceptor.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/admin-add.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/pom.xml" />
+        <option value="$PROJECT_DIR$/atcrowdfunding04-admin-entity/pom.xml" />
+        <option value="$PROJECT_DIR$/atcrowdfunding04-admin-entity/src/main/java/com/ydgk/crowd/entity/Admin.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/spring-persist-mybatis.xml" />
+        <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/user.jsp" />
         <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/service/api/AdminService.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/service/impl/AdminServiceImpl.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/user.jsp" />
+        <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/web/CrowdExceptionResolver.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/admin-edit.jsp" />
         <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mappers/AdminMapper.xml" />
       </list>
     </option>
   </component>
@@ -260,6 +267,13 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="atcrowdfunding02-admin-webui" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.ydgk.crowd:atcrowdfunding03-admin-component:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.hibernate.validator:hibernate-validator:6.1.5.Final" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="atcrowdfunding03-admin-component" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -271,7 +285,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="549" />
     <option name="y" value="27" />
     <option name="width" value="1490" />
@@ -292,6 +306,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -738,10 +754,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -753,6 +767,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -1096,7 +1111,8 @@
       <workItem from="1593393529878" duration="17321000" />
       <workItem from="1593481016708" duration="15138000" />
       <workItem from="1593566457631" duration="3507000" />
-      <workItem from="1593570009004" duration="10375000" />
+      <workItem from="1593570009004" duration="10893000" />
+      <workItem from="1593669616530" duration="9435000" />
     </task>
     <servers />
   </component>
@@ -1133,7 +1149,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56783000" />
+    <option name="totallyTimeSpent" value="66736000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1145,31 +1161,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25175643" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40075108" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13143776" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29156908" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17330211" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16627635" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36885247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5070258" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21545668" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17542918" sideWeight="0.4929078" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31545064" sideWeight="0.4929078" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21566524" sideWeight="0.5070922" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1179,7 +1196,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13680257" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1233,54 +1249,12 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/service/impl/AdminServiceImpl.java</url>
-          <line>76</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.20.RELEASE/spring-test-4.3.20.RELEASE.jar!/org/springframework/test/context/ContextConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="26" column="15" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/spring-persist-tx.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="87" lean-forward="false" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_131/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="967" column="18" lean-forward="false" selection-start-line="967" selection-start-column="18" selection-end-line="967" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.20.RELEASE/spring-web-4.3.20.RELEASE.jar!/org/springframework/web/filter/CharacterEncodingFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.20.RELEASE/spring-webmvc-4.3.20.RELEASE.jar!/org/springframework/web/servlet/mvc/Controller.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.20.RELEASE/spring-context-4.3.20.RELEASE.jar!/org/springframework/stereotype/Controller.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1340,14 +1314,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding04-admin-entity/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/bootstrap/js/npm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1400,14 +1366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/web/CrowdExceptionResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
@@ -1432,21 +1390,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/interceptors/LoginCheckInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_131/src.zip!/java/sql/PreparedStatement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12600">
           <caret line="446" column="45" lean-forward="false" selection-start-line="446" selection-start-column="39" selection-end-line="446" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1474,43 +1421,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="109" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="83" column="21" lean-forward="true" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/spring-web-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="44" column="83" lean-forward="false" selection-start-line="44" selection-start-column="83" selection-end-line="44" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/spring-persist-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.0.0/pagehelper-5.0.0.jar!/com/github/pagehelper/page/PageMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1518,7 +1432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1538,30 +1451,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding04-admin-entity/src/main/java/com/ydgk/crowd/entity/Admin.java">
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/jquery/jquery-2.1.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="330">
+          <caret line="1" column="5996" lean-forward="false" selection-start-line="1" selection-start-column="251" selection-end-line="1" selection-end-column="5996" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mappers/AdminMapper.xml">
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/test/java/com/ydgk/crowd/TestDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="80" column="40" lean-forward="false" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="40" />
+        <state relative-caret-position="1020">
+          <caret line="52" column="12" lean-forward="false" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
           <folding>
-            <marker date="1593575267492" expanded="true" signature="3211:3258" ph="select id, l... " />
-            <marker date="1593575267492" expanded="true" signature="3211:3275" ph="select FROM t_admin" />
-            <marker date="1593575267492" expanded="true" signature="3211:3469" ph="select FROM t_admin" />
-            <marker date="1593575267492" expanded="true" signature="3993:4096" ph="select from t_admin" />
-            <marker date="1593575267492" expanded="true" signature="4182:4239" ph="delete from t_admin... " />
-            <marker date="1593575267492" expanded="true" signature="4339:4358" ph="delete from t_admin... " />
-            <marker date="1593575267492" expanded="true" signature="4534:4820" ph="insert into t_admin... " />
-            <marker date="1593575267492" expanded="true" signature="6070:6098" ph="select count... t_admin" />
-            <marker date="1593575267492" expanded="true" signature="7114:7439" ph="update t_admin... " />
-            <marker date="1593575267492" expanded="true" signature="7646:8197" ph="update t_admin... " />
-            <marker date="1593575267492" expanded="true" signature="8293:8579" ph="update t_admin... " />
+            <marker date="1593571593301" expanded="true" signature="2709:2784" ph="INSERT INTO t_admin... " />
           </folding>
         </state>
       </provider>
@@ -1570,43 +1472,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/test/java/com/ydgk/crowd/TestDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
           <folding>
-            <marker date="1593571593301" expanded="true" signature="2709:2784" ph="INSERT INTO t_admin... " />
+            <marker date="1578108896747" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1578108896747" expanded="false" signature="145:218" ph="..." />
+            <marker date="1578108896747" expanded="true" signature="865:1011" ph="{...}" />
+            <marker date="1578108896747" expanded="false" signature="1046:1057" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="1071:1077" ph=" }" />
+            <marker date="1578108896747" expanded="true" signature="1132:2423" ph="{...}" />
+            <marker date="1578108896747" expanded="true" signature="2465:3496" ph="{...}" />
+            <marker date="1578108896747" expanded="true" signature="3526:3990" ph="{...}" />
+            <marker date="1578108896747" expanded="true" signature="4028:4238" ph="{...}" />
+            <marker date="1578108896747" expanded="false" signature="4267:4278" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="4298:4304" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="4345:4356" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="4379:4385" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="4415:4426" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="4447:4453" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="4496:4507" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="4532:4538" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="4564:4575" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="4592:4598" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="4633:4644" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="4661:4667" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="4697:4708" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="4729:4735" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="4778:4789" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="4814:4820" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="4848:4859" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="4878:4884" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="4923:4934" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="4955:4961" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="4989:5000" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="5018:5024" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="5062:5073" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="5092:5098" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="5125:5136" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="5154:5160" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="5197:5208" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="5227:5233" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="5263:5274" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="5291:5297" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="5336:5347" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="5364:5370" ph=" }" />
+            <marker date="1578108896747" expanded="true" signature="5376:5394" ph="/**...*/" />
+            <marker date="1578108896747" expanded="false" signature="5440:5451" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="5481:5487" ph=" }" />
+            <marker date="1578108896747" expanded="true" signature="5493:5511" ph="/**...*/" />
+            <marker date="1578108896747" expanded="false" signature="5571:5582" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="5617:5623" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="5652:5663" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="5683:5689" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="5730:5741" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="5764:5770" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="5800:5811" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="5832:5838" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="5881:5892" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="5917:5923" ph=" }" />
+            <marker date="1578108896747" expanded="true" signature="5929:5947" ph="/**...*/" />
+            <marker date="1578108896747" expanded="false" signature="5992:6003" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="6032:6038" ph=" }" />
+            <marker date="1578108896747" expanded="true" signature="6044:6062" ph="/**...*/" />
+            <marker date="1578108896747" expanded="false" signature="6120:6131" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="6164:6170" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="6206:6217" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="6241:6247" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="6300:6311" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="6342:6348" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="6383:6394" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="6417:6423" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="6474:6485" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="6514:6520" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="6560:6571" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="6599:6605" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="6666:6677" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="6716:6722" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="6758:6769" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="6793:6799" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="6852:6863" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="6894:6900" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="6935:6946" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="6972:6978" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="7031:7042" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="7077:7083" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="7123:7134" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="7163:7169" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="7230:7241" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="7282:7288" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="7327:7338" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="7368:7374" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="7412:7423" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="7452:7458" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="7519:7530" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="7573:7579" ph=" }" />
+            <marker date="1578108896747" expanded="false" signature="7638:7649" ph=" { " />
+            <marker date="1578108896747" expanded="false" signature="7690:7696" ph=" }" />
+            <marker date="1578108896747" expanded="true" signature="7727:9197" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/jquery/jquery-2.1.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="1" column="5996" lean-forward="false" selection-start-line="1" selection-start-column="251" selection-end-line="1" selection-end-column="5996" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/mapper/AdminMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/pagination/jquery.pagination.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1618,38 +1579,187 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/pagination/pagination.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/pagination/jquery.pagination.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="157" column="14" lean-forward="false" selection-start-line="157" selection-start-column="10" selection-end-line="157" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/interceptors/LoginCheckInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/mapper/AdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/spring-persist-tx.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/spring-web-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="145" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="145" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="189" column="12" lean-forward="false" selection-start-line="189" selection-start-column="12" selection-end-line="193" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding04-admin-entity/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/admin-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="53" column="60" lean-forward="true" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.0.0/pagehelper-5.0.0.jar!/com/github/pagehelper/PageInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="127" column="51" lean-forward="false" selection-start-line="127" selection-start-column="41" selection-end-line="127" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/spring-persist-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="46" column="62" lean-forward="false" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="106" column="141" lean-forward="true" selection-start-line="106" selection-start-column="57" selection-end-line="106" selection-end-column="141" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/service/api/AdminService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        <state relative-caret-position="270">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding04-admin-entity/src/main/java/com/ydgk/crowd/entity/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/web/CrowdExceptionResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="44" column="35" lean-forward="false" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/service/impl/AdminServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="83" column="48" lean-forward="false" selection-start-line="83" selection-start-column="48" selection-end-line="83" selection-end-column="48" />
+        <state relative-caret-position="450">
+          <caret line="130" column="38" lean-forward="false" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="38" />
           <folding>
-            <element signature="e#2739#2740#0" expanded="true" />
-            <element signature="e#2794#2795#0" expanded="true" />
+            <element signature="e#2854#2855#0" expanded="true" />
+            <element signature="e#2909#2910#0" expanded="true" />
+            <element signature="e#3974#3975#0" expanded="true" />
+            <element signature="e#4036#4037#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/user.jsp">
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/admin-edit.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="107" column="144" lean-forward="true" selection-start-line="107" selection-start-column="58" selection-end-line="107" selection-end-column="144" />
-          <folding />
+        <state relative-caret-position="665">
+          <caret line="49" column="53" lean-forward="false" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="44" column="81" lean-forward="false" selection-start-line="44" selection-start-column="74" selection-end-line="44" selection-end-column="81" />
+        <state relative-caret-position="416">
+          <caret line="91" column="33" lean-forward="true" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mappers/AdminMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="76" column="16" lean-forward="true" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+          <folding>
+            <marker date="1593679076707" expanded="true" signature="3211:3258" ph="select id, l... " />
+            <marker date="1593679076707" expanded="true" signature="3211:3275" ph="select FROM t_admin" />
+            <marker date="1593679076707" expanded="true" signature="3211:3498" ph="select FROM t_admin" />
+            <marker date="1593679076707" expanded="true" signature="3211:3499" ph="select FROM t_admin" />
+            <marker date="1593679076707" expanded="true" signature="4023:4126" ph="select from t_admin" />
+            <marker date="1593679076707" expanded="true" signature="4212:4269" ph="delete from t_admin... " />
+            <marker date="1593679076707" expanded="true" signature="4369:4388" ph="delete from t_admin... " />
+            <marker date="1593679076707" expanded="true" signature="4564:4850" ph="insert into t_admin... " />
+            <marker date="1593679076707" expanded="true" signature="6100:6128" ph="select count... t_admin" />
+            <marker date="1593679076707" expanded="true" signature="7144:7469" ph="update t_admin... " />
+            <marker date="1593679076707" expanded="true" signature="7676:8227" ph="update t_admin... " />
+            <marker date="1593679076707" expanded="true" signature="8323:8609" ph="update t_admin... " />
+          </folding>
         </state>
       </provider>
     </entry>

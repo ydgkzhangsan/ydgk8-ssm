@@ -1,3 +1,4 @@
+com\ydgk\ssm\exceptions\AccountNameAlreadyInUser.class
 com\ydgk\ssm\exceptions\AccessForbiddenException.class
 com\ydgk\ssm\exceptions\LoginFailedException.class
 com\ydgk\ssm\constant\CrowdConstant.class

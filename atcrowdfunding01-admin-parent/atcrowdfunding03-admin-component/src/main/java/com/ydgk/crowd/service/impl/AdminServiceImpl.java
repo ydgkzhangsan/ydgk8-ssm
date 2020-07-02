@@ -7,12 +7,15 @@ import com.ydgk.crowd.entity.AdminExample;
 import com.ydgk.crowd.mapper.AdminMapper;
 import com.ydgk.crowd.service.api.AdminService;
 import com.ydgk.ssm.constant.CrowdConstant;
+import com.ydgk.ssm.exceptions.AccountNameAlreadyInUser;
 import com.ydgk.ssm.exceptions.LoginFailedException;
 import com.ydgk.ssm.util.CrowdUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.Objects;
 
@@ -82,5 +85,49 @@ public class AdminServiceImpl implements AdminService {
     @Override
     public void removeAdminById(Integer adminId) {
         adminMapper.deleteByPrimaryKey(adminId);
+    }
+
+    @Override
+    public void saveAdmin(Admin admin) {
+        // 校验账号是否存在
+        // 1、 根据loginAcct属性查询数据库，如果能查到Admin信息，说明loginAcct存在，
+        List<Admin> admins = validateLoginAcctIsAlready(admin);
+        if(admins != null && admins.size() > 0){
+            throw new AccountNameAlreadyInUser(CrowdConstant.MESSAGE_ACCOUNT_NAME_ALREADY_IN_USER);
+        }
+        // 2、如果没有就继续执行新增操作
+        String pwd = CrowdUtil.md5("123456");
+        admin.setUserPswd(pwd);
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+        String createTime = format.format(new Date());
+        admin.setCreateTime(createTime);
+        adminMapper.insert(admin);
+    }
+
+    private List<Admin> validateLoginAcctIsAlready(Admin admin) {
+        AdminExample adminExample = new AdminExample();
+        AdminExample.Criteria criteria = adminExample.createCriteria();
+        criteria.andLoginAcctEqualTo(admin.getLoginAcct());
+        return adminMapper.selectByExample(adminExample);
+    }
+
+
+    @Override
+    public Admin getAdminById(Integer adminId) {
+        return adminMapper.selectByPrimaryKey(adminId);
+    }
+
+    @Override
+    public void editAdmin(Admin admin, String originalLoginAcct) {
+        // 判断账号是否被修改
+        if(!Objects.equals(admin.getLoginAcct().trim(),originalLoginAcct)){
+            // 如果修改过，需要判断数据库中是否存在这个账号
+            List<Admin> admins = validateLoginAcctIsAlready(admin);
+            if(admins != null && admins.size() > 0){
+                throw new AccountNameAlreadyInUser(CrowdConstant.MESSAGE_ACCOUNT_NAME_ALREADY_IN_USER_EDIT);
+            }
+        }
+        // 如果没有修改，则可以直接修改用户信息
+        adminMapper.updateByPrimaryKey(admin);
     }
 }

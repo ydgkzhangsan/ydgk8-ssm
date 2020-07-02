@@ -3,12 +3,20 @@ package com.ydgk.crowd.controller;
 import com.github.pagehelper.PageInfo;
 import com.ydgk.crowd.entity.Admin;
 import com.ydgk.crowd.service.api.AdminService;
+import com.ydgk.ssm.constant.CrowdConstant;
+import com.ydgk.ssm.util.CrowdUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+
+import javax.validation.Valid;
+import java.util.Map;
 
 /**
  * @author kfstart
@@ -45,6 +53,45 @@ public class UserController {
         return "redirect:/user/to/user.html?pageNum="+pageNum+"&keyWord="+keyWord;
     }
 
+    @RequestMapping("do/input.html")
+    public String doInput(@Valid Admin admin, BindingResult result){
+        if(result.hasErrors()){
+            return "pages/admin-add";
+        }
+        adminService.saveAdmin(admin);
+        return "redirect:/user/to/user.html";
+    }
 
+    @RequestMapping("to/edit/{adminId}/{pageNum}/{keyWord}.html")
+    public String toEdit(
+            @PathVariable("adminId")Integer adminId,
+            @PathVariable("pageNum")Integer pageNum,
+            @PathVariable("keyWord")String keyWord,
+            Map map
+    ){
+        //根据adminId获取Admin信息，并将信息存入到模型中
+        Admin admin = adminService.getAdminById(adminId);
+        map.put(CrowdConstant.ATTR_NAME_ADMIN_INFO,admin);
+        //?pageNum="+pageNum+"&keyWord="+keyWord
+        map.put("pageNum",pageNum);
+        map.put("keyWord",keyWord);
+        return "pages/admin-edit";
+    }
 
+    @ModelAttribute
+    public void getAdminById(@RequestParam(value = "id", required = false)Integer adminId,
+                             Map map){
+        if(adminId != null){
+            // 表示是一个新增操作
+            Admin admin = adminService.getAdminById(adminId);
+            map.put(CrowdConstant.ATTR_NAME_ADMIN_INFO,admin);
+        }
+    }
+
+    @RequestMapping("do/edit.html")
+    public String doEdit(Admin admin,String originalLoginAcct,String pageNum,String keyWord){
+        //执行更新操作
+        adminService.editAdmin(admin,originalLoginAcct);
+        return "redirect:/user/to/user.html?pageNum="+pageNum+"&keyWord="+keyWord;
+    }
 }

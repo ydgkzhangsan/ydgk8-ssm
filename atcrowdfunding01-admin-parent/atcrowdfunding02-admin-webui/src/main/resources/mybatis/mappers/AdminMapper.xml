@@ -76,10 +76,11 @@
     <include refid="Base_Column_List" />
     FROM t_admin
     <if test="keyWord != ''">
-      WHERE login_acct like concat('%',${keyWord},'%')
-      OR user_name like concat('%',${keyWord},'%')
-      OR email like concat('%',${keyWord},'%')
+      WHERE login_acct like concat('%',#{keyWord},'%')
+      OR user_name like concat('%',#{keyWord},'%')
+      OR email like concat('%',#{keyWord},'%')
     </if>
+    ORDER BY create_time desc
   </select>
 
   <select id="selectByExample" parameterType="com.ydgk.crowd.entity.AdminExample" resultMap="BaseResultMap">

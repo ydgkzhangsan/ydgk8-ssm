@@ -1,14 +1,19 @@
 package com.ydgk.crowd.entity;
 
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotEmpty;
+
 public class Admin {
     private Integer id;
 
+    @NotEmpty
     private String loginAcct;
 
     private String userPswd;
-
+    @NotEmpty
     private String userName;
 
+    @Email
     private String email;
 
     private String createTime;

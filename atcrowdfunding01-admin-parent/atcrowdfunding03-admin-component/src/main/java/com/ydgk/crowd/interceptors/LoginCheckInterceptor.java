@@ -2,6 +2,7 @@ package com.ydgk.crowd.interceptors;
 
 import com.ydgk.ssm.constant.CrowdConstant;
 import com.ydgk.ssm.exceptions.AccessForbiddenException;
+import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
