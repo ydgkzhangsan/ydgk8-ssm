@@ -10,10 +10,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.util.Map;
@@ -93,5 +90,17 @@ public class UserController {
         //执行更新操作
         adminService.editAdmin(admin,originalLoginAcct);
         return "redirect:/user/to/user.html?pageNum="+pageNum+"&keyWord="+keyWord;
+    }
+
+    @ResponseBody
+    @RequestMapping("test.json")
+    public String test(Integer id){
+        System.out.println(id);
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return "success";
     }
 }
