@@ -27,4 +27,19 @@ public class RoleServiceImpl implements RoleService {
         List<Role> roles = roleMapper.selectRoleByKeyWord(keyWord);
         return new PageInfo<Role>(roles);
     }
+
+    @Override
+    public void saveRole(Role role) {
+        roleMapper.insert(role);
+    }
+
+    @Override
+    public void updateRole(Role role) {
+        roleMapper.updateByPrimaryKey(role);
+    }
+
+    @Override
+    public void deleteRoleByIds(List<Integer> roleIds) {
+        roleMapper.deleteByIds(roleIds);
+    }
 }

@@ -72,6 +72,7 @@
       <if test="keyWord != ''">
         WHERE role_name like concat('%',#{keyWord},'%')
       </if>
+      ORDER BY id asc
   </select>
   <select id="selectByExample" parameterType="com.ydgk.crowd.entity.RoleExample" resultMap="BaseResultMap">
     select
@@ -93,6 +94,16 @@
     from t_role
     where id = #{id,jdbcType=INTEGER}
   </select>
+
+  <!--void deleteByIds(List<Integer> roleIds);-->
+  <delete id="deleteByIds">
+    delete from t_role
+    where id in
+    <foreach collection="roleIds" item="roleId" open="(" separator="," close=")">
+      #{roleId}
+    </foreach>
+  </delete>
+
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from t_role
     where id = #{id,jdbcType=INTEGER}

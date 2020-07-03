@@ -4,6 +4,8 @@ import com.github.pagehelper.PageInfo;
 import com.ydgk.crowd.entity.Role;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.util.List;
+
 /**
  * @author kfstart
  * @descrption
@@ -13,4 +15,10 @@ public interface RoleService {
 
 
     PageInfo<Role> getRoleByKeyWord(Integer pageNum, Integer pageSize, String keyWord);
+
+    void saveRole(Role role);
+
+    void updateRole(Role role);
+
+    void deleteRoleByIds(List<Integer> roleIds);
 }

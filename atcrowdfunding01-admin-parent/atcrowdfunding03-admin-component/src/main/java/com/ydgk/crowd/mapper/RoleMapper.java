@@ -30,4 +30,6 @@ public interface RoleMapper {
     int updateByPrimaryKeySelective(Role record);
 
     int updateByPrimaryKey(Role record);
+
+    void deleteByIds(@Param("roleIds") List<Integer> roleIds);
 }

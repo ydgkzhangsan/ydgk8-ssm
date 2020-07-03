@@ -21,31 +21,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="RoleMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mappers/RoleMapper.xml">
+      <file leaf-file-name="role-list.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/role-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="69" column="59" lean-forward="false" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="59" />
+            <state relative-caret-position="-270">
+              <caret line="198" column="40" lean-forward="true" selection-start-line="198" selection-start-column="40" selection-end-line="198" selection-end-column="40" />
               <folding>
-                <marker date="1593745942793" expanded="true" signature="2908:2940" ph="SELECT id, r... t_role" />
-                <marker date="1593745942793" expanded="true" signature="3562:3664" ph="select from t_role" />
-                <marker date="1593745942793" expanded="true" signature="3750:3806" ph="delete from t_role... " />
-                <marker date="1593745942793" expanded="true" signature="3905:3923" ph="delete from t_role... " />
-                <marker date="1593745942793" expanded="true" signature="4098:4198" ph="insert into t_role... " />
-                <marker date="1593745942793" expanded="true" signature="4848:4875" ph="select count... t_role" />
-                <marker date="1593745942793" expanded="true" signature="5453:5564" ph="update t_role... " />
-                <marker date="1593745942793" expanded="true" signature="5770:5939" ph="update t_role... " />
-                <marker date="1593745942793" expanded="true" signature="6034:6134" ph="update t_role... " />
+                <marker date="1593767542366" expanded="true" signature="6306:6338" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/service/impl/AdminServiceImpl.java">
+      <file leaf-file-name="role-modal-delete.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/role-modal-delete.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="130" column="38" lean-forward="false" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="38" />
+            <state relative-caret-position="240">
+              <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/controller/RoleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="72" column="35" lean-forward="true" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/service/api/RoleService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -54,33 +68,49 @@
       <file leaf-file-name="RoleServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/service/impl/RoleServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="45" />
+            <state relative-caret-position="-316">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#1030#1031#0" expanded="true" />
+                <element signature="e#1102#1103#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoleController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/controller/RoleController.java">
+      <file leaf-file-name="RoleMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/mapper/RoleMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="role-list.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/role-list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="342">
+              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mappers/RoleMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="74" column="21" lean-forward="true" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+              <folding>
+                <marker date="1593765058108" expanded="true" signature="2908:2940" ph="SELECT id, r... t_role" />
+                <marker date="1593765058108" expanded="true" signature="2908:3062" ph="SELECT id, r... t_role" />
+                <marker date="1593765058108" expanded="true" signature="3584:3686" ph="select from t_role" />
+                <marker date="1593765058108" expanded="true" signature="3782:3816" ph="delete from t_role... " />
+                <marker date="1593765058108" expanded="true" signature="4016:4072" ph="delete from t_role... " />
+                <marker date="1593765058108" expanded="true" signature="4171:4189" ph="delete from t_role... " />
+                <marker date="1593765058108" expanded="true" signature="4364:4464" ph="insert into t_role... " />
+                <marker date="1593765058108" expanded="true" signature="5114:5141" ph="select count... t_role" />
+                <marker date="1593765058108" expanded="true" signature="5719:5830" ph="update t_role... " />
+                <marker date="1593765058108" expanded="true" signature="6036:6205" ph="update t_role... " />
+                <marker date="1593765058108" expanded="true" signature="6300:6400" ph="update t_role... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,21 +118,11 @@
       <file leaf-file-name="my-role.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/js/my-role.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="38" />
+            <state relative-caret-position="439">
+              <caret line="60" column="132" lean-forward="false" selection-start-line="60" selection-start-column="119" selection-end-line="60" selection-end-column="132" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/user.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="41" column="14" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="41" selection-end-column="14" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -114,11 +134,11 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="HTML File" />
-        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
         <option value="CrowdJSP" />
         <option value="AMD JavaScript File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -141,9 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/atcrowdfunding04-admin-entity/src/main/java/com/ydgk/crowd/mapper/AdminMapper.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/atcrowdfunding04-admin-entity/src/test/java/com/ydgk/corwd/TestDataSource.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/src/test/java/com/ydgk/crowd/TestDataSource.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/src/test/java/com/ydgk/crowd/service/api/AdminService.java" />
@@ -185,11 +202,14 @@
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/test/java/com/ydgk/crowd/TestRoleMapper.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/commons/sidebar.jsp" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/my-role.js" />
+        <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/role-modal-input.jsp" />
+        <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/role-modal-edit.jsp" />
         <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/service/api/RoleService.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/mapper/RoleMapper.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/service/impl/RoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/controller/RoleController.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mappers/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/mapper/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/role-modal-delete.jsp" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/js/my-role.js" />
         <option value="$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/role-list.jsp" />
       </list>
@@ -722,11 +742,11 @@
       <recent name="com.ydgk.crowd.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\ideal_project\atcrowdfunding01-admin-parent\atcrowdfunding02-admin-webui\src\main\webapp\WEB-INF\pages" />
       <recent name="D:\java\ideal_project\atcrowdfunding01-admin-parent\atcrowdfunding02-admin-webui\src\main\webapp" />
       <recent name="D:\java\ideal_project\atcrowdfunding01-admin-parent\atcrowdfunding02-admin-webui\src\main\webapp\js" />
       <recent name="D:\java\ideal_project\atcrowdfunding01-admin-parent\atcrowdfunding02-admin-webui\src\main\resources\mybatis\mappers" />
       <recent name="D:\java\ideal_project\atcrowdfunding01-admin-parent\atcrowdfunding04-admin-entity\src\main\java\com\ydgk\crowd\entity" />
-      <recent name="D:\java\ideal_project\atcrowdfunding01-admin-parent\atcrowdfunding02-admin-webui\src\main\webapp\pagination" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1059,7 +1079,7 @@
       <workItem from="1593570009004" duration="10893000" />
       <workItem from="1593669616530" duration="10033000" />
       <workItem from="1593686753555" duration="3142000" />
-      <workItem from="1593739454583" duration="9102000" />
+      <workItem from="1593739454583" duration="19352000" />
     </task>
     <servers />
   </component>
@@ -1096,7 +1116,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79578000" />
+    <option name="totallyTimeSpent" value="89828000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1109,7 +1129,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1121,7 +1140,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13143776" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06791569" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42740047" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16627635" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1202,44 +1221,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.20.RELEASE/spring-web-4.3.20.RELEASE.jar!/org/springframework/web/context/ContextLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="171" column="0" lean-forward="false" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.20.RELEASE/spring-web-4.3.20.RELEASE.jar!/org/springframework/web/context/ContextLoaderListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.20.RELEASE/spring-webmvc-4.3.20.RELEASE.jar!/org/springframework/web/servlet/handler/HandlerInterceptorAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="30" column="52" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/commons/navbar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="65" lean-forward="false" selection-start-line="0" selection-start-column="65" selection-end-line="0" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_131/src.zip!/java/sql/PreparedStatement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12600">
@@ -1274,14 +1255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/admin-login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1503,7 +1476,7 @@
         <state relative-caret-position="401">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1548,22 +1521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/service/api/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/mapper/RoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="69" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1580,44 +1537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/service/impl/RoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mappers/RoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="69" column="59" lean-forward="false" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="59" />
-          <folding>
-            <marker date="1593745942793" expanded="true" signature="2908:2940" ph="SELECT id, r... t_role" />
-            <marker date="1593745942793" expanded="true" signature="3562:3664" ph="select from t_role" />
-            <marker date="1593745942793" expanded="true" signature="3750:3806" ph="delete from t_role... " />
-            <marker date="1593745942793" expanded="true" signature="3905:3923" ph="delete from t_role... " />
-            <marker date="1593745942793" expanded="true" signature="4098:4198" ph="insert into t_role... " />
-            <marker date="1593745942793" expanded="true" signature="4848:4875" ph="select count... t_role" />
-            <marker date="1593745942793" expanded="true" signature="5453:5564" ph="update t_role... " />
-            <marker date="1593745942793" expanded="true" signature="5770:5939" ph="update t_role... " />
-            <marker date="1593745942793" expanded="true" signature="6034:6134" ph="update t_role... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/controller/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/user.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1626,10 +1545,123 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/admin-login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="39" column="11" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="39" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/role-modal-input.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="42" />
+          <folding>
+            <element signature="e#378#385#1#HTML" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/role-modal-edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-316">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/service/api/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mappers/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="74" column="21" lean-forward="true" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+          <folding>
+            <marker date="1593765058108" expanded="true" signature="2908:2940" ph="SELECT id, r... t_role" />
+            <marker date="1593765058108" expanded="true" signature="2908:3062" ph="SELECT id, r... t_role" />
+            <marker date="1593765058108" expanded="true" signature="3584:3686" ph="select from t_role" />
+            <marker date="1593765058108" expanded="true" signature="3782:3816" ph="delete from t_role... " />
+            <marker date="1593765058108" expanded="true" signature="4016:4072" ph="delete from t_role... " />
+            <marker date="1593765058108" expanded="true" signature="4171:4189" ph="delete from t_role... " />
+            <marker date="1593765058108" expanded="true" signature="4364:4464" ph="insert into t_role... " />
+            <marker date="1593765058108" expanded="true" signature="5114:5141" ph="select count... t_role" />
+            <marker date="1593765058108" expanded="true" signature="5719:5830" ph="update t_role... " />
+            <marker date="1593765058108" expanded="true" signature="6036:6205" ph="update t_role... " />
+            <marker date="1593765058108" expanded="true" signature="6300:6400" ph="update t_role... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/ydgk/crowd/atcrowdfunding05-common-util/1.0-SNAPSHOT/atcrowdfunding05-common-util-1.0-SNAPSHOT.jar!/com/ydgk/ssm/util/ResultEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding03-admin-component/src/main/java/com/ydgk/crowd/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="72" column="35" lean-forward="true" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/role-modal-delete.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/js/my-role.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="38" />
+        <state relative-caret-position="439">
+          <caret line="60" column="132" lean-forward="false" selection-start-line="60" selection-start-column="119" selection-end-line="60" selection-end-column="132" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -1638,9 +1670,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/pages/role-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="-270">
+          <caret line="198" column="40" lean-forward="true" selection-start-line="198" selection-start-column="40" selection-end-line="198" selection-end-column="40" />
+          <folding>
+            <marker date="1593767542366" expanded="true" signature="6306:6338" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

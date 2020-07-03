@@ -52,13 +52,13 @@ function fullTable(rolePageInfo){
         var roleId = role.id;
         var roleName = role.roleName;
         str = str + " <tr>" +
-            "                                <td>1</td>" +
-            "                                <td><input type=\"checkbox\"></td>" +
+            "                                <td>"+(i + 1)+"</td>" +
+            "                                <td><input class='childCkbox' name='"+roleId+"' alt='"+roleName+"' type=\"checkbox\"></td>" +
             "                                <td>"+roleName+"</td>" +
             "                                <td>" +
             "                                    <button type=\"button\" class=\"btn btn-success btn-xs\"><i class=\" glyphicon glyphicon-check\"></i></button>" +
-            "                                    <button type=\"button\" class=\"btn btn-primary btn-xs\"><i class=\" glyphicon glyphicon-pencil\"></i></button>" +
-            "                                    <button type=\"button\" class=\"btn btn-danger btn-xs\"><i class=\" glyphicon glyphicon-remove\"></i></button>" +
+            "                                    <button type=\"button\" id='"+roleId+"' class=\"btn btn-primary btn-xs editBtn\"><i class=\" glyphicon glyphicon-pencil\"></i></button>" +
+            "                                    <button type=\"button\" id='"+roleId+"' class=\"btn btn-danger btn-xs deleteOneRole\"><i class=\" glyphicon glyphicon-remove\"></i></button>" +
             "                                </td>" +
             "                            </tr>"
     }
