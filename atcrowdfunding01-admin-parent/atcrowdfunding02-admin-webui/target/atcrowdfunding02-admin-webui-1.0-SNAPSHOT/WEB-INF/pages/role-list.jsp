@@ -192,7 +192,6 @@
                 //获取id的值
                 var id = this.id;
                 layer.confirm("您是否要删除"+roleName+"角色?",  {icon: 3, title:'提示'}, function(cindex){
-                    console.log(id)
                     // 将id封装成一个数组
                     var ids = [id];
                     deleteMoreRole(ids);

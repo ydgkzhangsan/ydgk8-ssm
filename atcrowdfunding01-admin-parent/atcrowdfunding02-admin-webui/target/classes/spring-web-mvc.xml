@@ -59,6 +59,7 @@
     <mvc:view-controller path="/admin/to/input.html" view-name="pages/admin-add"></mvc:view-controller>
 
     <mvc:view-controller path="/role/to/role-list.html" view-name="pages/role-list"></mvc:view-controller>
+    <mvc:view-controller path="/menu/to/menu.html" view-name="pages/menu"></mvc:view-controller>
 
     <!--注册拦截器-->
     <mvc:interceptors>
