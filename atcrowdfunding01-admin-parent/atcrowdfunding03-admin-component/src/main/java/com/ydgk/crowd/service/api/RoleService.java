@@ -21,4 +21,10 @@ public interface RoleService {
     void updateRole(Role role);
 
     void deleteRoleByIds(List<Integer> roleIds);
+
+    List<Role> getAssignedList(Integer adminId);
+
+    List<Role> getUnassignedList(Integer adminId);
+
+    void saveAssignRole(Integer adminId, Integer[] assignedRoleIds);
 }

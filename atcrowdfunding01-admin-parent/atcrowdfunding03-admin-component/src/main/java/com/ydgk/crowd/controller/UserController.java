@@ -27,6 +27,8 @@ public class UserController {
     @Autowired
     private AdminService adminService;
 
+
+
     @RequestMapping("/to/user.html")
     public String toUser(
             @RequestParam(value = "pageNum", required = false, defaultValue = "1") Integer pageNum,

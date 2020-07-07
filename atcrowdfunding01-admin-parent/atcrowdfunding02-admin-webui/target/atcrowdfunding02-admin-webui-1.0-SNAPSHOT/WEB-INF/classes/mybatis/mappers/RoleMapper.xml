@@ -66,6 +66,24 @@
   <sql id="Base_Column_List">
     id, role_name
   </sql>
+
+  <!--
+  List<Role> selectAssignedList(Integer adminId);
+
+  List<Role> selectUnassignedList(Integer adminId);
+  -->
+  <select id="selectAssignedList" resultMap="BaseResultMap">
+    SELECT id,role_name FROM t_role WHERE id IN (
+        SELECT r_id FROM inner_admin_role WHERE a_id = #{adminId}
+    )
+  </select>
+
+  <select id="selectUnassignedList"  resultMap="BaseResultMap">
+    SELECT id,role_name FROM t_role WHERE id NOT IN (
+        SELECT r_id FROM inner_admin_role WHERE a_id = #{adminId}
+    )
+  </select>
+
   <!--List<Role> selectRoleByKeyWord(@Param("keyWord") String keyWord);-->
   <select id="selectRoleByKeyWord" resultMap="BaseResultMap">
       SELECT id, role_name FROM t_role
@@ -95,6 +113,11 @@
     where id = #{id,jdbcType=INTEGER}
   </select>
 
+
+  <!--void deleteInnerAdminRoleByAdminId(Integer adminId);-->
+  <delete id="deleteInnerAdminRoleByAdminId">
+    delete from inner_admin_role WHERE a_id = #{adminId}
+  </delete>
   <!--void deleteByIds(List<Integer> roleIds);-->
   <delete id="deleteByIds">
     delete from t_role
@@ -114,6 +137,13 @@
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
+
+  <!--void insertInnerAdminRole(@Param("adminId")Integer adminId,@Param("assignedRoleIds")  Integer[] assignedRoleIds);-->
+  <insert id="insertInnerAdminRole">
+    insert into inner_admin_role (a_id,r_id) VALUES
+    <foreach collection="assignedRoleIds" item="roleId" separator=",">(#{adminId},#{roleId})</foreach>
+  </insert>
+
   <insert id="insert" parameterType="com.ydgk.crowd.entity.Role">
     insert into t_role (id, role_name)
     values (#{id,jdbcType=INTEGER}, #{roleName,jdbcType=VARCHAR})

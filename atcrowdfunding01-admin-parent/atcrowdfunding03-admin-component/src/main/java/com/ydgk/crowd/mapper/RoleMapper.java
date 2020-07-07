@@ -32,4 +32,12 @@ public interface RoleMapper {
     int updateByPrimaryKey(Role record);
 
     void deleteByIds(@Param("roleIds") List<Integer> roleIds);
+
+    List<Role> selectAssignedList(Integer adminId);
+
+    List<Role> selectUnassignedList(Integer adminId);
+
+    void deleteInnerAdminRoleByAdminId(Integer adminId);
+
+    void insertInnerAdminRole(@Param("adminId") Integer adminId,@Param("assignedRoleIds") Integer[] assignedRoleIds);
 }

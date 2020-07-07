@@ -42,4 +42,22 @@ public class RoleServiceImpl implements RoleService {
     public void deleteRoleByIds(List<Integer> roleIds) {
         roleMapper.deleteByIds(roleIds);
     }
+
+    @Override
+    public List<Role> getAssignedList(Integer adminId) {
+        return roleMapper.selectAssignedList(adminId);
+    }
+
+    @Override
+    public List<Role> getUnassignedList(Integer adminId) {
+        return roleMapper.selectUnassignedList(adminId);
+    }
+
+    @Override
+    public void saveAssignRole(Integer adminId, Integer[] assignedRoleIds) {
+        // 将原始的角色删除
+        roleMapper.deleteInnerAdminRoleByAdminId(adminId);
+        // 插入新的角色信息
+        roleMapper.insertInnerAdminRole(adminId,assignedRoleIds);
+    }
 }
