@@ -56,7 +56,7 @@ function fullTable(rolePageInfo){
             "                                <td><input class='childCkbox' name='"+roleId+"' alt='"+roleName+"' type=\"checkbox\"></td>" +
             "                                <td>"+roleName+"</td>" +
             "                                <td>" +
-            "                                    <button type=\"button\" class=\"btn btn-success btn-xs\"><i class=\" glyphicon glyphicon-check\"></i></button>" +
+            "                                    <button type=\"button\" id='"+roleId+"' onclick='showAssignModal(this)' class=\"btn btn-success btn-xs \"><i class=\" glyphicon glyphicon-check\"></i></button>" +
             "                                    <button type=\"button\" id='"+roleId+"' class=\"btn btn-primary btn-xs editBtn\"><i class=\" glyphicon glyphicon-pencil\"></i></button>" +
             "                                    <button type=\"button\" id='"+roleId+"' class=\"btn btn-danger btn-xs deleteOneRole\"><i class=\" glyphicon glyphicon-remove\"></i></button>" +
             "                                </td>" +
@@ -84,6 +84,90 @@ function pageSelectCallback(pageNum,jquery){
     generatorPage();
     // 取消分页的默认行为
     return false;
+}
+// 点击分配角色按钮执行的函数
+function showAssignModal(obj){
+    // 显示模态框
+    $("#assignRoleModal").modal('show');
+    // 获取角色Id  --> 保存到window对象的属性
+    window.id = obj.id;
+    // 加载权限的数据，将权限数据使用zTree显示到模态框中
+    var ajaxResult = $.ajax({
+        "url" : "assign/get/all/auth.json",
+        "type" : "post",
+        "dataType" : "json",
+        "async" : false
+    });
+
+    if(ajaxResult.status != 200){
+        layer.msg("获取权限信息失败，请联系管理员！",{time:2000, icon:2, shift:6});
+        return;
+    }
+
+    if(ajaxResult.responseJSON.operationResult == "FAILED"){
+        layer.msg(ajaxResult.responseJSON.operationMessage,{time:2000, icon:2, shift:6});
+        return;
+    }
+    var authList = ajaxResult.responseJSON.queryData;
+
+    var setting = {
+        check: {
+            enable: true // 是否在节点前显示复选框或单选框
+        },
+        data: {
+            simpleData: {
+                enable: true, // 启用ztree管理数据  比如 父子节点的管理交由ztree完成
+                pIdKey: "categoryId"
+            },
+            key : {
+                name : "title" // 这个属性表示使用节点数据中的那个属性作为树节点显示的内容
+            }
+        }
+    }
+    // 使用zTree根据权限列表数据生成整棵树
+    $.fn.zTree.init($("#authTree"), setting, authList);
+    // 将树节点全部展开
+    // 获取authTree对象
+
+    var treeObj = $.fn.zTree.getZTreeObj("authTree");
+
+    treeObj.expandAll(true); // true 表示展开树  false 收缩整棵树
+
+    // 获取当前节点角色拥有的权限，并在树中回显（将对应的√上即可）
+    // 发送ajax请求查询
+    ajaxResult = $.ajax({
+        "url" : "assign/get/auth/by/role/id.json",
+        "type" : "post",
+        "data" : {
+            "roleId" : obj.id
+        },
+        "dataType" : "json",
+        "async" : false
+    });
+
+    if(ajaxResult.status != 200){
+        layer.msg("获取权限信息失败，请联系管理员！",{time:2000, icon:2, shift:6});
+        return;
+    }
+
+    if(ajaxResult.responseJSON.operationResult == "FAILED"){
+        layer.msg("获取权限信息失败，请联系管理员！",{time:2000, icon:2, shift:6});
+        return;
+    }
+
+    // 获取当前节点的数据
+    var authIds = ajaxResult.responseJSON.queryData;
+    // 遍历获取的authId
+    $.each(authIds,function(index,authId){
+
+        // 根据authId查找树中对应的数据
+        // getNodeByParam() 参数1： 查找属性名，  参数2：查找属性值  参数3：查找的范围。 null 表示整棵树
+        var node = treeObj.getNodeByParam("id", authId, null);
+
+        // 根据 node 选中对应的节点
+        treeObj.checkNode(node, true, false);
+    })
+
 }
 
 

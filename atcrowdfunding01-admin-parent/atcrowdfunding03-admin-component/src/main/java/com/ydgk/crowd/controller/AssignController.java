@@ -1,11 +1,13 @@
 package com.ydgk.crowd.controller;
 
+import com.ydgk.crowd.entity.Auth;
 import com.ydgk.crowd.entity.Role;
+import com.ydgk.crowd.service.api.AuthService;
 import com.ydgk.crowd.service.api.RoleService;
+import com.ydgk.ssm.util.ResultEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
 import java.util.List;
@@ -25,6 +27,47 @@ public class AssignController {
 
     @Autowired
     private RoleService roleService;
+
+    @Autowired
+    private AuthService authService;
+
+    @ResponseBody
+    @RequestMapping("do/assign/auth.json")
+    public ResultEntity doAssign(@RequestBody Map<String,List<Integer>> map){
+        try {
+            authService.saveRoleAuth(map);
+            return ResultEntity.successWithoutData();
+        } catch ( Exception e ) {
+            e.printStackTrace();
+            return ResultEntity.failed(e.getMessage());
+        }
+    }
+
+    @ResponseBody
+    @RequestMapping("get/auth/by/role/id.json")
+    public ResultEntity<List<Integer>> getAuthByRoleId(Integer roleId){
+        try {
+            List<Integer> authIds = authService.getAuthIdByRoleId(roleId);
+            return ResultEntity.successWithData(authIds);
+        } catch ( Exception e ) {
+            e.printStackTrace();
+            return ResultEntity.failed(e.getMessage());
+        }
+
+    }
+
+    @ResponseBody
+    @RequestMapping("get/all/auth.json")
+    public ResultEntity<List<Auth>> getAuth(){
+        // 获取所有的权限信息
+        try {
+            List<Auth> auths = authService.getAll();
+            return ResultEntity.successWithData(auths);
+        } catch ( Exception e ) {
+            e.printStackTrace();
+            return ResultEntity.failed(e.getMessage());
+        }
+    }
 
     @RequestMapping("do/assign/role.html")
     public String doAssign(Integer pageNum, String keyWord, Integer adminId,

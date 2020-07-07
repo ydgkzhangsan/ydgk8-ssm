@@ -4,6 +4,8 @@
 <head>
     <jsp:include page="/WEB-INF/commons/head.jsp"></jsp:include>
     <link rel="stylesheet" type="text/css" href="pagination/pagination.css"/>
+    <%--导入ztree对应的资源--%>
+    <link rel="stylesheet" type="text/css" href="ztree/zTreeStyle.css" />
     <script type="text/javascript" src="js/my-role.js"></script>
     <script type="text/javascript">
         $(function(){
@@ -201,7 +203,57 @@
                     layer.close(cindex);
                 });
             })
-        })
+            // 为 #assignRoleBtn 绑定单击响应函数
+            $("#assignRoleBtn").click(function(){
+                // 1、将 authTree 中选中的权限信息获取
+                var treeObj = $.fn.zTree.getZTreeObj("authTree");
+
+                var nodes = treeObj.getCheckedNodes(true);
+
+                var authIds = [];
+                for(var i = 0; i < nodes.length; i++ ){
+                    authIds.push(nodes[i].id)
+                }
+                // 插入到数据库中的数据实际上只有权限的 id
+                // 一、使用拼串的形式进行数据传送
+                // var jsonStr = "roleId="+window.id;
+                //
+                // for( var i = 0; i < nodes.length; i++){
+                //     jsonStr += "&authIds="+nodes[i].id
+                // }
+                // 二、使用json格式的数据传送复杂对象
+                var jsonObj = {
+                    authIds : authIds,
+                    roleId : [window.id]
+                }
+                // 使用json数据的形式传送数据
+                var jsonStr = JSON.stringify(jsonObj);
+
+                // 2、将获取到的信息通过 ajax 请求发送到后台,插入到数据库中
+                $.ajax({
+                    "url" : "assign/do/assign/auth.json",
+                    "type" : "post",
+                    "data" : jsonStr,//需要角色 id   需要分配权限的 id
+                    "contentType" : "application/json;charset=UTF-8",
+                    "success": function(response){
+                        if(response.operationResult == "FAILED"){
+                            layer.msg(response.operationMessage,{time:2000, icon:2, shift:6});
+                            return;
+                        };
+                        // 隐藏模态框
+                        $("#assignRoleModal").modal('hide');
+                        // 显示分配成功提示
+                        layer.msg("分配权限成功！",{time:4000, icon:1, shift:3});
+                    },
+                    "error" : function(response){
+                        layer.msg(response.operationMessage,{time:2000, icon:2, shift:6});
+                    }
+                });
+
+
+                // 3、如果插入成功，关闭模态框，显示消息.
+            });
+        });
 
         // 用于将获取的id进行删除的函数
         function deleteMoreRole(roleIdList){
@@ -310,11 +362,13 @@
 <jsp:include page="role-modal-input.jsp"></jsp:include>
 <jsp:include page="role-modal-edit.jsp"></jsp:include>
 <jsp:include page="role-modal-delete.jsp"></jsp:include>
+<jsp:include page="modal-role-assign-auth.jsp"></jsp:include>
 <script src="jquery/jquery-2.1.1.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="script/docs.min.js"></script>
 <script src="layer/layer.js"></script>
 <script type="text/javascript" src="pagination/jquery.pagination.js"></script>
+<script type="text/javascript" src="ztree/jquery.ztree.all-3.5.min.js"></script>
 <script type="text/javascript">
     $(function () {
         $(".list-group-item").click(function () {
