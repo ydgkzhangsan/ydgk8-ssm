@@ -23,17 +23,18 @@
 
 <div class="container">
 
-    <form action="admin/do/doLogin.html" method="post" class="form-signin" role="form">
+    <form action="security/do/doLogin.html" method="post" class="form-signin" role="form">
         <h2 class="form-signin-heading"><i class="glyphicon glyphicon-log-in"></i> 管理员登录</h2>
+        <p style="color:red;text-align: center">${SPRING_SECURITY_LAST_EXCEPTION.message}</p>
         <c:if test="${!empty requestScope.exception}">
             <p style="color:red;">${requestScope.exception.message}</p>
         </c:if>
         <div class="form-group has-success has-feedback">
-            <input type="text" name="loginAcct" value="zhangsan" class="form-control" id="inputSuccess3" placeholder="请输入登录账号" autofocus>
+            <input type="text" name="loginAcct" class="form-control" id="inputSuccess3" placeholder="请输入登录账号" autofocus>
             <span class="glyphicon glyphicon-user form-control-feedback"></span>
         </div>
         <div class="form-group has-success has-feedback">
-            <input type="text" name="userPswd" value="123456" class="form-control" id="inputSuccess4" placeholder="请输入登录密码" style="margin-top:10px;">
+            <input type="text" name="userPswd" class="form-control" id="inputSuccess4" placeholder="请输入登录密码" style="margin-top:10px;">
             <span class="glyphicon glyphicon-lock form-control-feedback"></span>
         </div>
         <button type="submit" class="btn btn-lg btn-success btn-block" href="main.html" > 登录</button>

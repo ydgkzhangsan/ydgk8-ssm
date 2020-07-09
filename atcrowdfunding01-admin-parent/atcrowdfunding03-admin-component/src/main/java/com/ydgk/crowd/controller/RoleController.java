@@ -5,6 +5,7 @@ import com.ydgk.crowd.entity.Role;
 import com.ydgk.crowd.service.api.RoleService;
 import com.ydgk.ssm.util.ResultEntity;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -24,6 +25,10 @@ public class RoleController {
     @Autowired
     private RoleService roleService;
 
+    /*
+    使用 @PreAuthorize 注解,为对应的方法设置权限
+     */
+    @PreAuthorize("hasRole('部长')")
     @ResponseBody
     @RequestMapping("/get/role-list.json")
     public ResultEntity<PageInfo<Role>> getRoleInfo(Integer pageNum,

@@ -17,6 +17,7 @@
         <!-- context:include-filter： 指定只去扫描哪些组件 -->
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"></context:include-filter>
         <context:include-filter type="annotation" expression="org.springframework.web.bind.annotation.ControllerAdvice"></context:include-filter>
+        <context:include-filter type="assignable" expression="com.ydgk.crowd.config.CrowdSecurityConfig"></context:include-filter>
     </context:component-scan>
 
     <!--
@@ -43,6 +44,7 @@
                 <prop key="java.lang.ArithmeticException">errors/system-error</prop>
                 <!--以后可以制定异常，当指定的异常出现时去那个页面-->
                 <prop key="com.ydgk.ssm.exceptions.AccessForbiddenException">pages/admin-login</prop>
+                <prop key="java.lang.Exception">errors/system-error</prop>
             </props>
         </property>
     </bean>
@@ -62,15 +64,15 @@
     <mvc:view-controller path="/menu/to/menu.html" view-name="pages/menu"></mvc:view-controller>
 
     <!--注册拦截器-->
-    <mvc:interceptors>
-        <mvc:interceptor>
-            <!--指定拦截器拦截哪些资源-->
-            <mvc:mapping path="/**"/>
-            <!--设置不被拦截的请求-->
-            <mvc:exclude-mapping path="/admin/do/doLogin.html"></mvc:exclude-mapping>
-            <mvc:exclude-mapping path="/admin/to/admin-login.html"></mvc:exclude-mapping>
-            <mvc:exclude-mapping path="/admin/do/doLogout.html"></mvc:exclude-mapping>
-            <bean class="com.ydgk.crowd.interceptors.LoginCheckInterceptor"></bean>
-        </mvc:interceptor>
-    </mvc:interceptors>
+    <!--<mvc:interceptors>-->
+        <!--<mvc:interceptor>-->
+            <!--&lt;!&ndash;指定拦截器拦截哪些资源&ndash;&gt;-->
+            <!--<mvc:mapping path="/**"/>-->
+            <!--&lt;!&ndash;设置不被拦截的请求&ndash;&gt;-->
+            <!--<mvc:exclude-mapping path="/admin/do/doLogin.html"></mvc:exclude-mapping>-->
+            <!--<mvc:exclude-mapping path="/admin/to/admin-login.html"></mvc:exclude-mapping>-->
+            <!--<mvc:exclude-mapping path="/admin/do/doLogout.html"></mvc:exclude-mapping>-->
+            <!--<bean class="com.ydgk.crowd.interceptors.LoginCheckInterceptor"></bean>-->
+        <!--</mvc:interceptor>-->
+    <!--</mvc:interceptors>-->
 </beans>

@@ -27,4 +27,6 @@ public interface AdminService {
     Admin getAdminById(Integer adminId);
 
     void editAdmin(Admin admin, String originalLoginAcct);
+
+    Admin getAdminByLoginAcct(String loginAcct);
 }

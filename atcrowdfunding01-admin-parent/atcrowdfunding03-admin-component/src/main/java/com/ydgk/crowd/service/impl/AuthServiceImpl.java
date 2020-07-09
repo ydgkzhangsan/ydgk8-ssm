@@ -37,4 +37,9 @@ public class AuthServiceImpl implements AuthService {
         authMapper.deleteOldAuth(map.get("roleId").get(0));
         authMapper.insertRoleAssignAuth(map.get("roleId").get(0),map.get("authIds"));
     }
+
+    @Override
+    public List<Auth> getAuthListByAdminId(Integer id) {
+        return authMapper.selectAuthListByAdminId(id);
+    }
 }

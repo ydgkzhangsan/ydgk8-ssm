@@ -29,16 +29,16 @@
                 // prependTo()
                 // append
                 // appendTo
-                $("select:eq(0)>option:selected").prependTo($("select:eq(1)"));
+                $("select:eq(0)>option:selected").appendTo($("[name=assignedRoleIds]"));
             });
 
             $("#rightToLeft").click(function(){
-                $("select:eq(1)>option:selected").prependTo($("select:eq(0)"));
+                $("[name=assignedRoleIds]>option:selected").appendTo($("select:eq(0)"));
             });
 
             $("#assignBtn").click(function(){
                 // 在提交表单时，需要将所有已分配的option选中，然后再提交
-                $("select:eq(1) option").attr("selected","selected");
+                $("select:eq(1)>option").attr("selected","selected");
             });
         });
     </script>

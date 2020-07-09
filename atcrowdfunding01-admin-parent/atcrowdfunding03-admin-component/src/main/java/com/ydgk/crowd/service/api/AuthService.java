@@ -16,4 +16,6 @@ public interface AuthService {
     List<Integer> getAuthIdByRoleId(Integer roleId);
 
     void saveRoleAuth(Map<String, List<Integer>> map);
+
+    List<Auth> getAuthListByAdminId(Integer id);
 }

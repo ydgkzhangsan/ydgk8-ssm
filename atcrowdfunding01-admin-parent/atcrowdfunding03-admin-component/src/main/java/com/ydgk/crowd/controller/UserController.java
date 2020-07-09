@@ -6,6 +6,7 @@ import com.ydgk.crowd.service.api.AdminService;
 import com.ydgk.ssm.constant.CrowdConstant;
 import com.ydgk.ssm.util.CrowdUtil;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
@@ -52,6 +53,7 @@ public class UserController {
         return "redirect:/user/to/user.html?pageNum="+pageNum+"&keyWord="+keyWord;
     }
 
+    @PreAuthorize("hasAuthority('user:add')")
     @RequestMapping("do/input.html")
     public String doInput(@Valid Admin admin, BindingResult result){
         if(result.hasErrors()){

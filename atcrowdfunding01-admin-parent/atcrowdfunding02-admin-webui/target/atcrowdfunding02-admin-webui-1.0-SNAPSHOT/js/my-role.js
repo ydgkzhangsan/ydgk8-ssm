@@ -36,7 +36,7 @@ function getRoleInfoByRemote(){
     // 请求没有问题
     // 请求状态码是200不一定就有数据，可能后台代码出现异常。
     if(result.operationResult == "FAILED"){
-        layer.msg("获取数据失败，请联系管理员！",{time:2000, icon:2, shift:6});
+        layer.msg(result.operationMessage,{time:2000, icon:2, shift:6});
         return;
     }
     return result.queryData;
@@ -47,6 +47,9 @@ function fullTable(rolePageInfo){
     $("#roleTbody").empty();
     // 获取tbody对象
     var str = "";
+    if(rolePageInfo == undefined){
+        return;
+    }
     for(var i = 0; i <rolePageInfo.list.length; i++){
         var role = rolePageInfo.list[i];
         var roleId = role.id;

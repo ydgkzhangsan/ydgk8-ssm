@@ -130,4 +130,15 @@ public class AdminServiceImpl implements AdminService {
         // 如果没有修改，则可以直接修改用户信息
         adminMapper.updateByPrimaryKey(admin);
     }
+
+    @Override
+    public Admin getAdminByLoginAcct(String loginAcct) {
+
+        AdminExample adminExample = new AdminExample();
+        adminExample.createCriteria().andLoginAcctEqualTo(loginAcct);
+
+        List<Admin> admins = adminMapper.selectByExample(adminExample);
+
+        return admins.get(0);
+    }
 }

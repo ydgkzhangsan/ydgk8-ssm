@@ -68,6 +68,22 @@
   <sql id="Base_Column_List">
     id, name, title, category_id
   </sql>
+  <!--    List<Auth> selectAuthListByAdminId(Integer id);-->
+  <select id="selectAuthListByAdminId" resultMap="BaseResultMap">
+    SELECT id, name, title, category_id
+    FROM t_auth
+    WHERE id in (
+      SELECT auth_id
+      FROM inner_role_auth
+      WHERE role_id in (
+        SELECT r_id FROM
+        inner_admin_role
+        WHERE  a_id = #{id}
+      )
+    ) AND  name != ''
+  </select>
+
+
   <!--    List<Integer> getAuthIdByRoleId(Integer roleId);-->
   <select id="getAuthIdByRoleId" resultType="int">
     SELECT auth_id FROM inner_role_auth WHERE role_id = #{roleId}

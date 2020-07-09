@@ -26,13 +26,13 @@ import java.io.PrintWriter;
 @ControllerAdvice
 public class CrowdExceptionResolver {
 
-//    @ExceptionHandler(AccessForbiddenException.class)
-//    public ModelAndView handlerAccessForbidden(HttpServletRequest request,
-//                                           LoginFailedException exception,
-//                                           HttpServletResponse response) throws IOException {
-//        String viewName = "pages/admin-login";
-//        return  commonExceptionResolver(viewName,request,response,exception);
-//    }
+    @ExceptionHandler(Exception.class)
+    public ModelAndView handlerException(HttpServletRequest request,
+                                           Exception exception,
+                                           HttpServletResponse response) throws IOException {
+        String viewName = "errors/system-error";
+        return  commonExceptionResolver(viewName,request,response,exception);
+    }
 
     @ExceptionHandler(AccountNameAlreadyInUser.class)
     public ModelAndView handlerLoginFailed(HttpServletRequest request,

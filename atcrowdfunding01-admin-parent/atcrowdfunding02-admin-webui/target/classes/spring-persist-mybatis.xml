@@ -10,6 +10,7 @@
         <!--指定Spring不扫描 @Controller 注解和 @ControllerAdvice 注解修饰的组件-->
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"></context:exclude-filter>
         <context:exclude-filter type="annotation" expression="org.springframework.web.bind.annotation.ControllerAdvice"></context:exclude-filter>
+        <context:exclude-filter type="assignable" expression="com.ydgk.crowd.config.CrowdSecurityConfig"></context:exclude-filter>
     </context:component-scan>
 
     <!--这个配置文件时Spring的配置文件，主要用来做Spring和持久化相关的配置-->

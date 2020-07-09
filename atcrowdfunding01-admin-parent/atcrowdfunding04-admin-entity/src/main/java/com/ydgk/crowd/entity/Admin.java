@@ -2,8 +2,12 @@ package com.ydgk.crowd.entity;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
+import java.io.Serializable;
 
-public class Admin {
+public class Admin implements Serializable {
+
+    static final long serialVersionUID = 422134125465768L;
+
     private Integer id;
 
     @NotEmpty
