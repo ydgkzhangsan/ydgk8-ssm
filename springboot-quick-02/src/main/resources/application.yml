@@ -1,0 +1,18 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /haha
+
+# 这是注释   yml的语法
+person:
+  name: tom
+  age: 21
+  gender: female
+  friends:
+    - name: xiaohong
+      age: 18
+    - name: xiaolv
+      age: 19
+  dog:
+    name: xiaohei
+    gender: male

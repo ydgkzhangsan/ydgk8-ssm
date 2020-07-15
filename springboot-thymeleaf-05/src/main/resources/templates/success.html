@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Success Page</title>
+</head>
+<body>
+    <h4>Success Page</h4>
+    <p th:text="${home}">LAJFDOIJAOWEGJLKASDF</p>
+    <!--使用#{}可以去除国际化资源文件中的内容显示在页面相当于<fmt:message>标签}-->
+    <p th:text="#{message}">HaHa</p>
+    <span>新加入的Span12</span>
+    <!--页面中的静态资源文件应该放在哪个位置-->
+</body>
+</html>

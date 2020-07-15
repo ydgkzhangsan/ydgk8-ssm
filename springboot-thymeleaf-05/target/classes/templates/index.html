@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Index Page</title>
+    <script type="text/javascript" th:src="@{/webjars/jquery/3.5.1/jquery.js}" ></script>
+</head>
+<body>
+    <!--
+        th:text 属性经过thymeleaf模板引擎处理之后会替换标签体中的内容
+    -->
+    <p th:text="'这是欢迎页!'">Welcome to our grocery store!</p>
+    <a href="/to/success/page" th:href="@{/to/success/page}">To Success Page</a>
+<!--
+    classpath:/META-INF/resources/",
+    "classpath:/resources/",
+    "classpath:/static/",
+    "classpath:/public/"}
+-->
+</body>
+</html>

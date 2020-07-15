@@ -1,0 +1,82 @@
+# application.yml 也是 SpringBoot 的全局配置文件
+# yml : 是以数据为中心的一门语言  比xml，json跟适合做配置文件
+#     语法：  使用基本数据类型(byte short int long double float boolean char)、
+#             对象（Map）、数组（list、set）
+#         属性名:[空格]值
+
+map:
+  key1: value1
+  key2: value2
+  name: tom
+
+map1: {key1: value1, key2: valule2}
+
+arry:
+  - 1
+  - 2
+  - 3
+  - 4
+
+arry1: [1,3,4,5,6,7,8]
+
+
+
+person:
+  name: 'zhang\tsan '
+  username: 张三
+  age: 18
+  pet:
+    name: 小狗
+    gender: male
+  animal:
+    - dog
+    - cat
+    - fish
+  interests: [足球,篮球]
+  friends:
+    - zhangsan is my best friends
+    - "lisi /n"
+  childs:
+    - name: xiaozhang
+      age: 18
+    - name: xiaoli
+      pets:
+        - a
+        - b
+    - {name: lisi, age: 18}
+# 配置字符编码
+server:
+  servlet:
+    encoding:
+      charset: UTF-8
+      force-request: true
+      force-response: true
+# 启用debug模式
+debug: true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

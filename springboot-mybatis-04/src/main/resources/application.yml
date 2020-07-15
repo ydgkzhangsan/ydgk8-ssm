@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver # 因为 SpringBoot 导入的数据库驱动是 8.x 版本的
+    url: jdbc:mysql://localhost:3306/mybatis?serverTimezone=UTC
+    type: com.alibaba.druid.pool.DruidDataSource    # 指定使用数据源的类型
+mybatis:
+  mapper-locations: "classpath:mybatis/mapper/*Mapper.xml"  # 指定mybatisMapper文件的位置
+  config-location: "classpath:mybatis/mybatis-config.xml"

@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.ydgk.springboot.entity.Person",
+      "sourceType": "com.ydgk.springboot.entity.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ydgk.springboot.entity.Person"
+    },
+    {
+      "name": "person.animal",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.ydgk.springboot.entity.Person"
+    },
+    {
+      "name": "person.childs",
+      "type": "java.util.List<java.util.Map<java.lang.String,java.lang.Object>>",
+      "sourceType": "com.ydgk.springboot.entity.Person"
+    },
+    {
+      "name": "person.friends",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.ydgk.springboot.entity.Person"
+    },
+    {
+      "name": "person.interests",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.ydgk.springboot.entity.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.ydgk.springboot.entity.Person"
+    },
+    {
+      "name": "person.pet",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.ydgk.springboot.entity.Person"
+    },
+    {
+      "name": "person.username",
+      "type": "java.lang.String",
+      "sourceType": "com.ydgk.springboot.entity.Person"
+    }
+  ],
+  "hints": []
+}

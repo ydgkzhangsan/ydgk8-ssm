@@ -38,7 +38,7 @@
 
             $("#assignBtn").click(function(){
                 // 在提交表单时，需要将所有已分配的option选中，然后再提交
-                $("select:eq(1)>option").attr("selected","selected");
+                $("select:eq(1)>option").prop("selected","selected");
             });
         });
     </script>
