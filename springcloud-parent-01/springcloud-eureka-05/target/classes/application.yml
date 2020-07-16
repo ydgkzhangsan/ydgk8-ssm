@@ -1,0 +1,10 @@
+server:
+  port: 5000
+eureka:
+  client:
+    register-with-eureka: false #  表示自己本身就是Eureka服务端，没必要再向Eureka中注册自己的信息
+    fetch-registry: false       #   表示自己本身就是Eureka服务端，所以也没必要在Eureka中取回信息
+    service-url:                # 用来配置Eureka服务端的url
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  instance:
+    hostname: localhost        #  设置Eureka服务的主机名

@@ -1,0 +1,9 @@
+server:
+  port: 3000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5000/eureka/    #  因为当前是使用 Eureka 客户端，需要指定 Eureka 服务端地址才能正常使用 Eureka
+spring:
+  application:
+    name: provider-01
