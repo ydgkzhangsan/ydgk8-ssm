@@ -14,7 +14,7 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
             <!--指定依赖的版本 ${} 表示将版本统一的管理-->
-            <version>4.3.20.RELEASE</version>
+            <version>5.3.18</version>
         </dependency>
     </dependencies>
 </project>
